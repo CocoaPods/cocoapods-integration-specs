@@ -25,6 +25,7 @@ Downloading dependencies
      $ /usr/local/bin/git clone "CACHES_DIR/GitHub/48f11286750afa2e2eb80564e288f42eed7cbab6" "ROOT/tmp/update/Pods/Reachability"
      Cloning into 'ROOT/tmp/update/Pods/Reachability'...
      done.
+     git hooks not installed in this repository.  Run 'git hooks --install' to install it or 'git hooks -h' for more information.
    $ /usr/local/bin/git fetch origin tags/v3.1.0 2>&1
    From CACHES_DIR/GitHub/48f11286750afa2e2eb80564e288f42eed7cbab6
     * tag               v3.1.0     -> FETCH_HEAD
@@ -32,6 +33,7 @@ Downloading dependencies
    HEAD is now at f7176f4 updated podspec
    $ /usr/local/bin/git checkout -b activated-pod-commit 2>&1
    Switched to a new branch 'activated-pod-commit'
+   git hooks not installed in this repository.  Run 'git hooks --install' to install it or 'git hooks -h' for more information.
   - Running pre install hooks
 
 Generating Pods project
@@ -62,3 +64,5 @@ Generating Pods project
   - Writing Manifest in `Pods/Manifest.lock`
 
 Integrating client project
+
+[!] do not inhibit

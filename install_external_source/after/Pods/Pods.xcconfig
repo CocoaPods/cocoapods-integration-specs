@@ -1,4 +1,4 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/PodTest"
+OTHER_CFLAGS = "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/PodTest" $(inherited)
 OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}/Pods

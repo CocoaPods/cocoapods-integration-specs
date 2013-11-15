@@ -54,3 +54,13 @@ Integrating client project
 [!] From now on use `SampleApp.xcworkspace`.
 
 Integrating Pod target `Pods-PodTest` into aggregate target Pods of project `SampleApp.xcodeproj`.
+
+[!] do not inhibit
+
+[!] do not inhibit
+
+[!] do not inhibit
+
+[!] The target `iOS App [Release]` overrides the `OTHER_CFLAGS` build setting defined in `Pods/Pods.xcconfig'.
+    - Use the `$(inherited)` flag, or
+    - Remove the build settings from the target.
