@@ -25,8 +25,7 @@ Downloading dependencies
    $ /usr/local/bin/git rev-list --max-count=1 0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce
    0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce
  > Cloning to Pods folder
-     $ /usr/local/bin/git clone "CACHES_DIR/GitHub/de3e1c97c03ac13b29e7533beea2d2131589900f"
-     "ROOT/tmp/install_multiple_targets/Pods/JSONKit"
+     $ /usr/local/bin/git clone "CACHES_DIR/GitHub/de3e1c97c03ac13b29e7533beea2d2131589900f" "ROOT/tmp/install_multiple_targets/Pods/JSONKit"
      Cloning into 'ROOT/tmp/install_multiple_targets/Pods/JSONKit'...
      done.
      git hooks not installed in this repository.  Run 'git hooks --install' to install it or 'git hooks -h' for more information.
@@ -43,8 +42,7 @@ Downloading dependencies
    $ /usr/local/bin/git rev-list --max-count=1 v3.1.0
    f7176f4798d068d233dca5223ae4bd9c8059e830
  > Cloning to Pods folder
-     $ /usr/local/bin/git clone "CACHES_DIR/GitHub/48f11286750afa2e2eb80564e288f42eed7cbab6"
-     "ROOT/tmp/install_multiple_targets/Pods/Reachability"
+     $ /usr/local/bin/git clone "CACHES_DIR/GitHub/48f11286750afa2e2eb80564e288f42eed7cbab6" "ROOT/tmp/install_multiple_targets/Pods/Reachability"
      Cloning into 'ROOT/tmp/install_multiple_targets/Pods/Reachability'...
      done.
      git hooks not installed in this repository.  Run 'git hooks --install' to install it or 'git hooks -h' for more information.
@@ -129,11 +127,3 @@ Integrating Pod target `Pods-Reachability` into aggregate target Pods of project
 Integrating Pod targets `Pods-SampleApp_2-JSONKit and Pods-SampleApp_2-Reachability` into aggregate target Pods-SampleApp_2 of project `SampleApp.xcodeproj`.
 
 Integrating Pod target `Pods-test-JSONKit` into aggregate target Pods-test of project `SampleApp.xcodeproj`.
-
-[!] do not inhibit
-
-[!] do not inhibit
-
-[!] do not inhibit
-
-[!] do not inhibit

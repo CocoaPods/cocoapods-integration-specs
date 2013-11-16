@@ -1,4 +1,4 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_CFLAGS = "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/Reachability" $(inherited)
+OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/Reachability"
 OTHER_LDFLAGS = -ObjC -framework SystemConfiguration
 PODS_ROOT = ${SRCROOT}/Pods

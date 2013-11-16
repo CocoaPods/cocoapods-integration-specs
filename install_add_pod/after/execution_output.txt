@@ -71,7 +71,3 @@ Generating Pods project
   - Writing Manifest in `Pods/Manifest.lock`
 
 Integrating client project
-
-[!] do not inhibit
-
-[!] do not inhibit

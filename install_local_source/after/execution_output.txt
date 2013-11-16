@@ -51,8 +51,6 @@ Integrating Pod target `Pods-Reachability` into aggregate target Pods of project
 
 [!] The `:local` option of the Podfile has been renamed to `:path` and is deprecated.
 
-[!] do not inhibit
-
 [!] The target `iOS App [Release]` overrides the `OTHER_CFLAGS` build setting defined in `Pods/Pods.xcconfig'.
     - Use the `$(inherited)` flag, or
     - Remove the build settings from the target.
