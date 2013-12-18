@@ -38,7 +38,8 @@ File References:
   - libPods.a
 - Products:
   - iOS App.app
-- Pods.xcconfig
+- Pods.Debug.xcconfig
+- Pods.Release.xcconfig
 
 
 
@@ -74,7 +75,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: iPhone Developer
           GCC_PREFIX_HEADER: iOS App/iOS App-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Debug.xcconfig
     - Release:
         Build Settings:
           VALIDATE_PRODUCT: 'YES'
@@ -90,7 +91,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: iPhone Developer
           GCC_PREFIX_HEADER: iOS App/iOS App-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Release.xcconfig
 
 
 
@@ -131,12 +132,12 @@ Build Configurations:
       GCC_WARN_UNINITIALIZED_AUTOS: 'YES'
       MACOSX_DEPLOYMENT_TARGET: '10.8'
       CLANG_WARN__DUPLICATE_METHOD_MATCH: 'YES'
+      CLANG_WARN_EMPTY_BODY: 'YES'
       CLANG_CXX_LANGUAGE_STANDARD: gnu++0x
       CLANG_WARN_INT_CONVERSION: 'YES'
-      CLANG_WARN_EMPTY_BODY: 'YES'
-      ALWAYS_SEARCH_USER_PATHS: 'NO'
       CLANG_WARN_CONSTANT_CONVERSION: 'YES'
       ARCHS: $(ARCHS_STANDARD_64_BIT)
+      ALWAYS_SEARCH_USER_PATHS: 'NO'
       CLANG_WARN_ENUM_CONVERSION: 'YES'
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       GCC_WARN_ABOUT_RETURN_TYPE: 'YES'

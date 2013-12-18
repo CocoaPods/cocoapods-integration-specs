@@ -25,19 +25,21 @@ File References:
   - libPods-SampleApp_2-Reachability.a
 - Targets Support Files:
   - Pods-SampleApp_1:
-    - Pods-SampleApp_1.xcconfig
     - Pods-SampleApp_1-acknowledgements.markdown
     - Pods-SampleApp_1-acknowledgements.plist
     - Pods-SampleApp_1-dummy.m
     - Pods-SampleApp_1-environment.h
     - Pods-SampleApp_1-resources.sh
+    - Pods-SampleApp_1.Debug.xcconfig
+    - Pods-SampleApp_1.Release.xcconfig
   - Pods-SampleApp_2:
-    - Pods-SampleApp_2.xcconfig
     - Pods-SampleApp_2-acknowledgements.markdown
     - Pods-SampleApp_2-acknowledgements.plist
     - Pods-SampleApp_2-dummy.m
     - Pods-SampleApp_2-environment.h
     - Pods-SampleApp_2-resources.sh
+    - Pods-SampleApp_2.Debug.xcconfig
+    - Pods-SampleApp_2.Release.xcconfig
 
 
 
@@ -48,7 +50,6 @@ Targets:
       - Pods-SampleApp_1-dummy.m
     - FrameworksBuildPhase:
       - Foundation.framework
-      - libPods-SampleApp_1-Reachability.a
     Build Configurations:
     - Debug:
         Build Settings:
@@ -72,7 +73,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           COPY_PHASE_STRIP: 'NO'
           OTHER_LDFLAGS: ''
-        Base Configuration: Pods-SampleApp_1.xcconfig
+        Base Configuration: Pods-SampleApp_1.Debug.xcconfig
     - Release:
         Build Settings:
           SDKROOT: iphoneos
@@ -96,7 +97,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           COPY_PHASE_STRIP: 'YES'
           PUBLIC_HEADERS_FOLDER_PATH: $(TARGET_NAME)
-        Base Configuration: Pods-SampleApp_1.xcconfig
+        Base Configuration: Pods-SampleApp_1.Release.xcconfig
 - Pods-SampleApp_1-Reachability:
     Build Phases:
     - SourcesBuildPhase:
@@ -163,7 +164,6 @@ Targets:
       - Pods-SampleApp_2-dummy.m
     - FrameworksBuildPhase:
       - Foundation.framework
-      - libPods-SampleApp_2-Reachability.a
     Build Configurations:
     - Debug:
         Build Settings:
@@ -187,7 +187,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           COPY_PHASE_STRIP: 'NO'
           OTHER_LDFLAGS: ''
-        Base Configuration: Pods-SampleApp_2.xcconfig
+        Base Configuration: Pods-SampleApp_2.Debug.xcconfig
     - Release:
         Build Settings:
           SDKROOT: iphoneos
@@ -211,7 +211,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           COPY_PHASE_STRIP: 'YES'
           PUBLIC_HEADERS_FOLDER_PATH: $(TARGET_NAME)
-        Base Configuration: Pods-SampleApp_2.xcconfig
+        Base Configuration: Pods-SampleApp_2.Release.xcconfig
 - Pods-SampleApp_2-Reachability:
     Build Phases:
     - SourcesBuildPhase:
@@ -296,10 +296,10 @@ Build Configurations:
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       CLANG_WARN_EMPTY_BODY: 'YES'
       ALWAYS_SEARCH_USER_PATHS: 'NO'
-      COPY_PHASE_STRIP: 'YES'
-      CLANG_ENABLE_OBJC_ARC: 'NO'
-      CLANG_WARN_BOOL_CONVERSION: 'YES'
       CLANG_WARN_DIRECT_OBJC_ISA_USAGE: YES_ERROR
+      COPY_PHASE_STRIP: 'YES'
+      CLANG_WARN_BOOL_CONVERSION: 'YES'
+      CLANG_ENABLE_OBJC_ARC: 'NO'
       GCC_WARN_UNUSED_FUNCTION: 'YES'
       CLANG_WARN_OBJC_ROOT_CLASS: YES_ERROR
       GCC_DYNAMIC_NO_PIC: 'NO'
@@ -322,10 +322,10 @@ Build Configurations:
       CLANG_WARN_EMPTY_BODY: 'YES'
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       ALWAYS_SEARCH_USER_PATHS: 'NO'
-      COPY_PHASE_STRIP: 'NO'
-      CLANG_ENABLE_OBJC_ARC: 'NO'
-      CLANG_WARN_BOOL_CONVERSION: 'YES'
       CLANG_WARN_DIRECT_OBJC_ISA_USAGE: YES_ERROR
+      COPY_PHASE_STRIP: 'NO'
+      CLANG_WARN_BOOL_CONVERSION: 'YES'
+      CLANG_ENABLE_OBJC_ARC: 'NO'
       GCC_WARN_UNUSED_FUNCTION: 'YES'
       CLANG_WARN_OBJC_ROOT_CLASS: YES_ERROR
       ENABLE_NS_ASSERTIONS: 'NO'

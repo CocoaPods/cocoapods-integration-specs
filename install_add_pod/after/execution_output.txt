@@ -18,17 +18,19 @@ Downloading dependencies
 
 -> Installing JSONKit (1.5pre)
  > GitHub download
-   $ /usr/local/bin/git config core.bare
+   $ /usr/bin/git config core.bare
    true
-   $ /usr/local/bin/git config core.bare
+   $ /usr/bin/git config core.bare
    true
-   $ /usr/local/bin/git rev-list --max-count=1 0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce
+   $ /usr/bin/git rev-list --max-count=1 0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce
    0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce
  > Cloning to Pods folder
-     $ /usr/local/bin/git clone "CACHES_DIR/GitHub/de3e1c97c03ac13b29e7533beea2d2131589900f" "ROOT/tmp/install_add_pod/Pods/JSONKit"
+     $ /usr/bin/git clone "CACHES_DIR/GitHub/de3e1c97c03ac13b29e7533beea2d2131589900f"
+     "ROOT/tmp/install_add_pod/Pods/JSONKit"
      Cloning into 'ROOT/tmp/install_add_pod/Pods/JSONKit'...
      done.
-   $ /usr/local/bin/git checkout -b activated-pod-commit 0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce 2>&1
+     Checking connectivity... done
+   $ /usr/bin/git checkout -b activated-pod-commit 0aff3deb5e1bb2bbc88a83fd71c8ad5550185cce 2>&1
    Switched to a new branch 'activated-pod-commit'
 
 -> Using Reachability (3.1.0)
@@ -57,7 +59,8 @@ Generating Pods project
       - Generating prefix header at `Pods/Pods-Reachability-prefix.pch`
       - Generating dummy source file at `Pods/Pods-Reachability-dummy.m`
     - Installing target `Pods` iOS 6.0
-      - Generating xcconfig file at `Pods/Pods.xcconfig`
+      - Generating Release xcconfig file at `Pods/Pods.Release.xcconfig`
+      - Generating Debug xcconfig file at `Pods/Pods.Debug.xcconfig`
       - Generating target environment header at `Pods/Pods-environment.h`
       - Generating copy resources script at `Pods/Pods-resources.sh`
       - Generating acknowledgements at `Pods/Pods-acknowledgements.plist`
