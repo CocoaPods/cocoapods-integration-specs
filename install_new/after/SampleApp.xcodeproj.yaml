@@ -22,7 +22,8 @@ File References:
   - libPods.a
 - Products:
   - SampleApp.app
-- Pods.xcconfig
+- Pods.Debug.xcconfig
+- Pods.Release.xcconfig
 
 
 
@@ -50,7 +51,7 @@ Targets:
           INFOPLIST_FILE: SampleApp/SampleApp-Info.plist
           GCC_PREFIX_HEADER: SampleApp/SampleApp-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Debug.xcconfig
     - Release:
         Build Settings:
           WRAPPER_EXTENSION: app
@@ -59,7 +60,7 @@ Targets:
           INFOPLIST_FILE: SampleApp/SampleApp-Info.plist
           GCC_PREFIX_HEADER: SampleApp/SampleApp-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Release.xcconfig
 
 
 

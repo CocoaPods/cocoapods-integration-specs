@@ -61,9 +61,12 @@ File References:
   - SampleAppTests.octest
   - SampleApp_2.app
   - NonIntegrated.app
-- Pods.xcconfig
-- Pods-SampleApp_2.xcconfig
-- Pods-test.xcconfig
+- Pods.Debug.xcconfig
+- Pods.Release.xcconfig
+- Pods-SampleApp_2.Debug.xcconfig
+- Pods-SampleApp_2.Release.xcconfig
+- Pods-test.Debug.xcconfig
+- Pods-test.Release.xcconfig
 
 
 
@@ -91,7 +94,7 @@ Targets:
           INFOPLIST_FILE: SampleApp/SampleApp-Info.plist
           GCC_PREFIX_HEADER: SampleApp/SampleApp-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Debug.xcconfig
     - Release:
         Build Settings:
           WRAPPER_EXTENSION: app
@@ -100,7 +103,7 @@ Targets:
           INFOPLIST_FILE: SampleApp/SampleApp-Info.plist
           GCC_PREFIX_HEADER: SampleApp/SampleApp-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Release.xcconfig
 - SampleAppTests:
     Build Phases:
     - Check Pods Manifest.lock: []
@@ -126,7 +129,7 @@ Targets:
           BUNDLE_LOADER: $(BUILT_PRODUCTS_DIR)/SampleApp.app/Contents/MacOS/SampleApp
           GCC_PREFIX_HEADER: SampleApp/SampleApp-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods-test.xcconfig
+        Base Configuration: Pods-test.Debug.xcconfig
     - Release:
         Build Settings:
           WRAPPER_EXTENSION: octest
@@ -138,7 +141,7 @@ Targets:
           BUNDLE_LOADER: $(BUILT_PRODUCTS_DIR)/SampleApp.app/Contents/MacOS/SampleApp
           GCC_PREFIX_HEADER: SampleApp/SampleApp-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods-test.xcconfig
+        Base Configuration: Pods-test.Release.xcconfig
 - SampleApp_2:
     Build Phases:
     - Check Pods Manifest.lock: []
@@ -162,7 +165,7 @@ Targets:
           INFOPLIST_FILE: SampleApp_2/SampleApp_2-Info.plist
           GCC_PREFIX_HEADER: SampleApp_2/SampleApp_2-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods-SampleApp_2.xcconfig
+        Base Configuration: Pods-SampleApp_2.Debug.xcconfig
     - Release:
         Build Settings:
           WRAPPER_EXTENSION: app
@@ -171,7 +174,7 @@ Targets:
           INFOPLIST_FILE: SampleApp_2/SampleApp_2-Info.plist
           GCC_PREFIX_HEADER: SampleApp_2/SampleApp_2-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods-SampleApp_2.xcconfig
+        Base Configuration: Pods-SampleApp_2.Release.xcconfig
 - NonIntegrated:
     Build Phases:
     - SourcesBuildPhase:

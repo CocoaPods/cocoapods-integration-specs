@@ -19,12 +19,13 @@ File References:
   - libPods-Reachability.a
 - Targets Support Files:
   - Pods:
-    - Pods.xcconfig
     - Pods-acknowledgements.markdown
     - Pods-acknowledgements.plist
     - Pods-dummy.m
     - Pods-environment.h
     - Pods-resources.sh
+    - Pods.Debug.xcconfig
+    - Pods.Release.xcconfig
 
 
 
@@ -35,7 +36,6 @@ Targets:
       - Pods-dummy.m
     - FrameworksBuildPhase:
       - Foundation.framework
-      - libPods-Reachability.a
     Build Configurations:
     - Debug:
         Build Settings:
@@ -59,7 +59,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           COPY_PHASE_STRIP: 'NO'
           OTHER_LDFLAGS: ''
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Debug.xcconfig
     - Release:
         Build Settings:
           SDKROOT: iphoneos
@@ -83,7 +83,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           COPY_PHASE_STRIP: 'YES'
           PUBLIC_HEADERS_FOLDER_PATH: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Release.xcconfig
 - Pods-Reachability:
     Build Phases:
     - SourcesBuildPhase:

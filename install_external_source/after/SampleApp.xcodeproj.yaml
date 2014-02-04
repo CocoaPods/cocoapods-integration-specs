@@ -38,7 +38,8 @@ File References:
   - libPods.a
 - Products:
   - iOS App.app
-- Pods.xcconfig
+- Pods.Debug.xcconfig
+- Pods.Release.xcconfig
 
 
 
@@ -74,7 +75,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: iPhone Developer
           GCC_PREFIX_HEADER: iOS App/iOS App-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Debug.xcconfig
     - Release:
         Build Settings:
           VALIDATE_PRODUCT: 'YES'
@@ -90,7 +91,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: iPhone Developer
           GCC_PREFIX_HEADER: iOS App/iOS App-Prefix.pch
           PRODUCT_NAME: $(TARGET_NAME)
-        Base Configuration: Pods.xcconfig
+        Base Configuration: Pods.Release.xcconfig
 
 
 

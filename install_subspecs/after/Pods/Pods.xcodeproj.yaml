@@ -30,19 +30,21 @@ File References:
   - libPods-iOS App-PodTest.a
 - Targets Support Files:
   - Pods-OS X App:
-    - Pods-OS X App.xcconfig
     - Pods-OS X App-acknowledgements.markdown
     - Pods-OS X App-acknowledgements.plist
     - Pods-OS X App-dummy.m
     - Pods-OS X App-environment.h
     - Pods-OS X App-resources.sh
+    - Pods-OS X App.Debug.xcconfig
+    - Pods-OS X App.Release.xcconfig
   - Pods-iOS App:
-    - Pods-iOS App.xcconfig
     - Pods-iOS App-acknowledgements.markdown
     - Pods-iOS App-acknowledgements.plist
     - Pods-iOS App-dummy.m
     - Pods-iOS App-environment.h
     - Pods-iOS App-resources.sh
+    - Pods-iOS App.Debug.xcconfig
+    - Pods-iOS App.Release.xcconfig
 
 
 
@@ -53,7 +55,6 @@ Targets:
       - Pods-OS X App-dummy.m
     - FrameworksBuildPhase:
       - Cocoa.framework
-      - libPods-OS X App-PodTest.a
     Build Configurations:
     - Debug:
         Build Settings:
@@ -78,7 +79,7 @@ Targets:
           OTHER_LDFLAGS: ''
           COMBINE_HIDPI_IMAGES: 'YES'
           COPY_PHASE_STRIP: 'NO'
-        Base Configuration: Pods-OS X App.xcconfig
+        Base Configuration: Pods-OS X App.Debug.xcconfig
     - Release:
         Build Settings:
           DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
@@ -103,7 +104,7 @@ Targets:
           SDKROOT: macosx
           COMBINE_HIDPI_IMAGES: 'YES'
           COPY_PHASE_STRIP: 'YES'
-        Base Configuration: Pods-OS X App.xcconfig
+        Base Configuration: Pods-OS X App.Release.xcconfig
 - Pods-OS X App-PodTest:
     Build Phases:
     - SourcesBuildPhase:
@@ -171,7 +172,6 @@ Targets:
       - Pods-iOS App-dummy.m
     - FrameworksBuildPhase:
       - Foundation.framework
-      - libPods-iOS App-PodTest.a
     Build Configurations:
     - Debug:
         Build Settings:
@@ -195,7 +195,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           COPY_PHASE_STRIP: 'NO'
           OTHER_LDFLAGS: ''
-        Base Configuration: Pods-iOS App.xcconfig
+        Base Configuration: Pods-iOS App.Debug.xcconfig
     - Release:
         Build Settings:
           SDKROOT: iphoneos
@@ -219,7 +219,7 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           COPY_PHASE_STRIP: 'YES'
           PUBLIC_HEADERS_FOLDER_PATH: $(TARGET_NAME)
-        Base Configuration: Pods-iOS App.xcconfig
+        Base Configuration: Pods-iOS App.Release.xcconfig
 - Pods-iOS App-PodTest:
     Build Phases:
     - SourcesBuildPhase:
