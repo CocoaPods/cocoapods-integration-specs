@@ -1,0 +1,1 @@
+../../../AWSiOSSDK/src/include/SQS/SQSDeleteMessageBatchRequestEntry.h

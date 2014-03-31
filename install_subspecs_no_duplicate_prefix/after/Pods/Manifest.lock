@@ -1,16 +1,54 @@
 PODS:
-  - PodTest/subspec_1 (1.0)
-  - PodTest/subspec_2 (1.0)
+  - AWSiOSSDK (1.7.1):
+    - AWSiOSSDK/AutoScaling
+    - AWSiOSSDK/CloudWatch
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/EC2
+    - AWSiOSSDK/ElasticLoadBalancing
+    - AWSiOSSDK/Runtime
+    - AWSiOSSDK/S3
+    - AWSiOSSDK/SES
+    - AWSiOSSDK/SimpleDB
+    - AWSiOSSDK/SNS
+    - AWSiOSSDK/SQS
+    - AWSiOSSDK/STS
+  - AWSiOSSDK/AutoScaling (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/CloudWatch (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/DynamoDB (1.7.1):
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/EC2 (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/ElasticLoadBalancing (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/Runtime (1.7.1)
+  - AWSiOSSDK/S3 (1.7.1):
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SES (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SimpleDB (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SNS (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/SQS (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
+  - AWSiOSSDK/STS (1.7.1):
+    - AWSiOSSDK/DynamoDB
+    - AWSiOSSDK/Runtime
 
 DEPENDENCIES:
-  - PodTest/subspec_1 (from `PodTest-hg-source`)
-  - PodTest/subspec_2 (from `PodTest-hg-source`)
-
-EXTERNAL SOURCES:
-  PodTest:
-    :hg: PodTest-hg-source
+  - AWSiOSSDK (~> 1.0)
 
 SPEC CHECKSUMS:
-  PodTest: 5049980a26c8960af5a42d1c7f086483c5b29d8f
+  AWSiOSSDK: 53fe33f929710e66f27d9556ae80830d419a103b
 
 COCOAPODS: 0.30.0

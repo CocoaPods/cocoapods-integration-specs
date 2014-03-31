@@ -1,0 +1,1 @@
+../../AWSiOSSDK/src/include/AmazonCredentials.h

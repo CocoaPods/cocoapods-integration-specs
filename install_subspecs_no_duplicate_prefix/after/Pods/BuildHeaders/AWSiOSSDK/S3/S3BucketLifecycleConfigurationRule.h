@@ -1,0 +1,1 @@
+../../../AWSiOSSDK/src/include/S3/S3BucketLifecycleConfigurationRule.h
