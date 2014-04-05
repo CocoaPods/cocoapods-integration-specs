@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/CocosDenshion/CocosDenshion" "${PODS_ROOT}/Headers/CocosDenshion/CocosDenshionExtras" "${PODS_ROOT}/Headers/cocos2d" "${PODS_ROOT}/Headers/cocos2d/Platforms" "${PODS_ROOT}/Headers/cocos2d/Platforms/Mac" "${PODS_ROOT}/Headers/cocos2d/Platforms/iOS" "${PODS_ROOT}/Headers/cocos2d/Support" "${PODS_ROOT}/Headers/external/kazmath/include/kazmath" "${PODS_ROOT}/Headers/external/kazmath/include/kazmath/GL" "${PODS_ROOT}/Headers/external/libpng" "${PODS_ROOT}/cocos2d/external/kazmath/include" "${PODS_ROOT}/cocos2d/external/kazmath/include"
-OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/CocosDenshion/CocosDenshion" "-isystem${PODS_ROOT}/Headers/CocosDenshion/CocosDenshionExtras" "-isystem${PODS_ROOT}/Headers/cocos2d" "-isystem${PODS_ROOT}/Headers/cocos2d/Platforms" "-isystem${PODS_ROOT}/Headers/cocos2d/Platforms/Mac" "-isystem${PODS_ROOT}/Headers/cocos2d/Platforms/iOS" "-isystem${PODS_ROOT}/Headers/cocos2d/Support" "-isystem${PODS_ROOT}/Headers/external/kazmath/include/kazmath" "-isystem${PODS_ROOT}/Headers/external/kazmath/include/kazmath/GL" "-isystem${PODS_ROOT}/Headers/external/libpng"
-OTHER_LDFLAGS = -ObjC -lz -framework AVFoundation -framework AudioToolbox -framework GameKit -framework OpenAL -framework OpenGLES -framework QuartzCore
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Test"
+OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/Test"
+OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}/Pods

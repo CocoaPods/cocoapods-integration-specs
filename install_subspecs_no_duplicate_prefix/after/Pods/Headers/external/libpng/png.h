@@ -1,1 +1,0 @@
-../../../cocos2d/external/libpng/png.h

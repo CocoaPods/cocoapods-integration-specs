@@ -6,15 +6,15 @@
 // project.
 
 
-// cocos2d
-#define COCOAPODS_POD_AVAILABLE_cocos2d
-#define COCOAPODS_VERSION_MAJOR_cocos2d 2
-#define COCOAPODS_VERSION_MINOR_cocos2d 0
-#define COCOAPODS_VERSION_PATCH_cocos2d 0
+// Test
+#define COCOAPODS_POD_AVAILABLE_Test
+#define COCOAPODS_VERSION_MAJOR_Test 0
+#define COCOAPODS_VERSION_MINOR_Test 0
+#define COCOAPODS_VERSION_PATCH_Test 1
 
-// cocos2d/CocosDenshion
-#define COCOAPODS_POD_AVAILABLE_cocos2d_CocosDenshion
-#define COCOAPODS_VERSION_MAJOR_cocos2d_CocosDenshion 2
-#define COCOAPODS_VERSION_MINOR_cocos2d_CocosDenshion 0
-#define COCOAPODS_VERSION_PATCH_cocos2d_CocosDenshion 0
+// Test/Foo
+#define COCOAPODS_POD_AVAILABLE_Test_Foo
+#define COCOAPODS_VERSION_MAJOR_Test_Foo 0
+#define COCOAPODS_VERSION_MINOR_Test_Foo 0
+#define COCOAPODS_VERSION_PATCH_Test_Foo 1
 

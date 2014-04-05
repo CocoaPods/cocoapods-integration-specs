@@ -1,2 +1,0 @@
-PODS_COCOS_D_HEADER_SEARCH_PATHS = "${PODS_ROOT}/cocos2d/external/kazmath/include" "${PODS_ROOT}/cocos2d/external/kazmath/include"
-PODS_COCOS_D_OTHER_LDFLAGS = -lz -framework AVFoundation -framework AudioToolbox -framework GameKit -framework OpenAL -framework OpenGLES -framework QuartzCore
