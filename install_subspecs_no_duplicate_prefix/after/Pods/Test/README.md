@@ -1,3 +1,5 @@
+NOTE: This has been superceded by an official Pod. This is only currently used for integration testing with CocoaPods since it is very simple.
+
 AFRaptureXMLRequestOperation
 ============================
 
