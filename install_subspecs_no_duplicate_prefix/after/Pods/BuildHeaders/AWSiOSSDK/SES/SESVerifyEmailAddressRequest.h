@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/SES/SESVerifyEmailAddressRequest.h

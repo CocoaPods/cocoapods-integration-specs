@@ -1,54 +1,12 @@
 PODS:
-  - AWSiOSSDK (1.7.1):
-    - AWSiOSSDK/AutoScaling
-    - AWSiOSSDK/CloudWatch
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/EC2
-    - AWSiOSSDK/ElasticLoadBalancing
-    - AWSiOSSDK/Runtime
-    - AWSiOSSDK/S3
-    - AWSiOSSDK/SES
-    - AWSiOSSDK/SimpleDB
-    - AWSiOSSDK/SNS
-    - AWSiOSSDK/SQS
-    - AWSiOSSDK/STS
-  - AWSiOSSDK/AutoScaling (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/CloudWatch (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/DynamoDB (1.7.1):
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/EC2 (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/ElasticLoadBalancing (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/Runtime (1.7.1)
-  - AWSiOSSDK/S3 (1.7.1):
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SES (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SimpleDB (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SNS (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/SQS (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
-  - AWSiOSSDK/STS (1.7.1):
-    - AWSiOSSDK/DynamoDB
-    - AWSiOSSDK/Runtime
+  - cocos2d (2.0):
+    - cocos2d/CocosDenshion
+  - cocos2d/CocosDenshion (2.0)
 
 DEPENDENCIES:
-  - AWSiOSSDK (~> 1.0)
+  - cocos2d (= 2.0)
 
 SPEC CHECKSUMS:
-  AWSiOSSDK: 53fe33f929710e66f27d9556ae80830d419a103b
+  cocos2d: 36ad1fd51a46fa9f49164001bd73ea42fd5ed3f4
 
 COCOAPODS: 0.30.0

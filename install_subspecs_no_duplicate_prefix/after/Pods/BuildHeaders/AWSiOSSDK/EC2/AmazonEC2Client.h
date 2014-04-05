@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/EC2/AmazonEC2Client.h

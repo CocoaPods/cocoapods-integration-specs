@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/DynamoDB/DynamoDBGlobalSecondaryIndexUpdate.h

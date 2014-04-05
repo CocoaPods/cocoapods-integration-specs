@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/SNS/SNSPlatformApplication.h

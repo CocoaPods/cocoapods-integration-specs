@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/STS/SecurityTokenServiceGetFederationTokenRequestMarshaller.h

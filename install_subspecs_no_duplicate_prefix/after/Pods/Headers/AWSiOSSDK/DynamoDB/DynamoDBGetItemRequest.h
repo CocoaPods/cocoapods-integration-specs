@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/DynamoDB/DynamoDBGetItemRequest.h

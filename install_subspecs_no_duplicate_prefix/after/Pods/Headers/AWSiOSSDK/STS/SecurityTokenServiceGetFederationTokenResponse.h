@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/STS/SecurityTokenServiceGetFederationTokenResponse.h

@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/S3/DeletedObject.h

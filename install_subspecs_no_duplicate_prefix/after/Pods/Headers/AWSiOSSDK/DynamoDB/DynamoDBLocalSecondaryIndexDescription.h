@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/DynamoDB/DynamoDBLocalSecondaryIndexDescription.h

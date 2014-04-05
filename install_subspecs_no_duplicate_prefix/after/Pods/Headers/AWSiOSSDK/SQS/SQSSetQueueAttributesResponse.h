@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/SQS/SQSSetQueueAttributesResponse.h

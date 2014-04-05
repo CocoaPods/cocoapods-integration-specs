@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/SES/SESVerifyEmailIdentityResponse.h

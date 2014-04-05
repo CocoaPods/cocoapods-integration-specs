@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/AutoScaling/AutoScalingEnableMetricsCollectionResponse.h

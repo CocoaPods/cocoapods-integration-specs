@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingPolicyAttributeTypeDescription.h

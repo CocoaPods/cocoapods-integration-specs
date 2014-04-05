@@ -1,1 +1,0 @@
-../../AWSiOSSDK/src/include/AmazonServiceResponse.h

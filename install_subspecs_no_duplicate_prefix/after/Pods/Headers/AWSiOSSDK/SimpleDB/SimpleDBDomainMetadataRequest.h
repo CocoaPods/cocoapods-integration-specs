@@ -1,1 +1,0 @@
-../../../AWSiOSSDK/src/include/SimpleDB/SimpleDBDomainMetadataRequest.h
