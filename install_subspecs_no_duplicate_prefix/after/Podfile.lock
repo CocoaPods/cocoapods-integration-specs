@@ -1,6 +1,6 @@
 PODS:
   - Test (0.0.1):
-    - Test/Foo
+    - Test/Foo (= 0.0.1)
   - Test/Foo (0.0.1)
 
 DEPENDENCIES:
