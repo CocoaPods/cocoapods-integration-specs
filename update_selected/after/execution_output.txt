@@ -29,6 +29,7 @@ Finding Podfile changes
   - Reachability
 
 Resolving dependencies of `Podfile`
+.
 
 Comparing resolved specification to the sandbox manifest
   M JSONKit

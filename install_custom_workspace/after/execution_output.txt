@@ -9,6 +9,7 @@ Inspecting targets to integrate
   Using `ARCHS` setting to build architectures of target `Pods-SampleApp_2`: (`$(ARCHS_STANDARD_64_BIT)`)
 
 Resolving dependencies of `Podfile`
+.
 
 Comparing resolved specification to the sandbox manifest
   A Reachability
