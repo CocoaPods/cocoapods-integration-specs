@@ -6,9 +6,21 @@
 // project.
 
 
-// Reachability
-#define COCOAPODS_POD_AVAILABLE_Reachability
-#define COCOAPODS_VERSION_MAJOR_Reachability 3
-#define COCOAPODS_VERSION_MINOR_Reachability 1
-#define COCOAPODS_VERSION_PATCH_Reachability 0
+// LocalPod
+#define COCOAPODS_POD_AVAILABLE_LocalPod
+#define COCOAPODS_VERSION_MAJOR_LocalPod 1
+#define COCOAPODS_VERSION_MINOR_LocalPod 0
+#define COCOAPODS_VERSION_PATCH_LocalPod 0
+
+// LocalPod/subspec_1
+#define COCOAPODS_POD_AVAILABLE_LocalPod_subspec_1
+#define COCOAPODS_VERSION_MAJOR_LocalPod_subspec_1 1
+#define COCOAPODS_VERSION_MINOR_LocalPod_subspec_1 0
+#define COCOAPODS_VERSION_PATCH_LocalPod_subspec_1 0
+
+// LocalPod/subspec_2
+#define COCOAPODS_POD_AVAILABLE_LocalPod_subspec_2
+#define COCOAPODS_VERSION_MAJOR_LocalPod_subspec_2 1
+#define COCOAPODS_VERSION_MINOR_LocalPod_subspec_2 0
+#define COCOAPODS_VERSION_PATCH_LocalPod_subspec_2 0
 

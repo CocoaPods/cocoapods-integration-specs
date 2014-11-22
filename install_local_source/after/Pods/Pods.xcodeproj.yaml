@@ -2,21 +2,44 @@
 File References:
 - Podfile
 - Development Pods:
-  - Reachability:
-    - Reachability.h
-    - Reachability.m
+  - LocalPod:
     - Support Files:
-      - Pods-Reachability.xcconfig
-      - Pods-Reachability-Private.xcconfig
-      - Pods-Reachability-dummy.m
-      - Pods-Reachability-prefix.pch
+      - Pods-LocalPod.xcconfig
+      - Pods-LocalPod-Private.xcconfig
+      - Pods-LocalPod-dummy.m
+      - Pods-LocalPod-prefix.pch
+    - subspec_1:
+      - Resources:
+        - subspec_1:
+          - resources:
+            - resource.png
+      - subspec_1:
+        - subspec_1.h
+        - subspec_1.m
+        - foo:
+          - bar:
+            - foo_bar_1.h
+            - foo_bar_1.m
+    - subspec_2:
+      - Resources:
+        - subspec_2:
+          - resources:
+            - resource.png
+      - subspec_2:
+        - subspec_2.h
+        - subspec_2.m
+        - foo:
+          - bar:
+            - foo_bar_2.h
+            - foo_bar_2.m
 - Frameworks:
   - iOS:
     - Foundation.framework
-    - SystemConfiguration.framework
 - Products:
+  - SubSpec_1.bundle
+  - SubSpec_2.bundle
   - libPods.a
-  - libPods-Reachability.a
+  - libPods-LocalPod.a
 - Targets Support Files:
   - Pods:
     - Pods-acknowledgements.markdown
@@ -80,16 +103,25 @@ Targets:
           COPY_PHASE_STRIP: 'YES'
           PUBLIC_HEADERS_FOLDER_PATH: $(TARGET_NAME)
         Base Configuration: Pods.release.xcconfig
-- Pods-Reachability:
+- Pods-LocalPod:
     Build Phases:
     - SourcesBuildPhase:
-      - Pods-Reachability-dummy.m
-      - Reachability.m
+      - Pods-LocalPod-dummy.m
+      - foo_bar_1.m:
+          COMPILER_FLAGS: -fobjc-arc -DOS_OBJECT_USE_OBJC=0
+      - foo_bar_2.m:
+          COMPILER_FLAGS: -fobjc-arc -DOS_OBJECT_USE_OBJC=0
+      - subspec_1.m:
+          COMPILER_FLAGS: -fobjc-arc -DOS_OBJECT_USE_OBJC=0
+      - subspec_2.m:
+          COMPILER_FLAGS: -fobjc-arc -DOS_OBJECT_USE_OBJC=0
     - FrameworksBuildPhase:
       - Foundation.framework
-      - SystemConfiguration.framework
     - HeadersBuildPhase:
-      - Reachability.h
+      - foo_bar_1.h
+      - foo_bar_2.h
+      - subspec_1.h
+      - subspec_2.h
     Build Configurations:
     - Debug:
         Build Settings:
@@ -111,8 +143,8 @@ Targets:
           GCC_PRECOMPILE_PREFIX_HEADER: 'YES'
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           COPY_PHASE_STRIP: 'NO'
-          GCC_PREFIX_HEADER: Target Support Files/Pods-Reachability/Pods-Reachability-prefix.pch
-        Base Configuration: Pods-Reachability-Private.xcconfig
+          GCC_PREFIX_HEADER: Target Support Files/Pods-LocalPod/Pods-LocalPod-prefix.pch
+        Base Configuration: Pods-LocalPod-Private.xcconfig
     - Release:
         Build Settings:
           PUBLIC_HEADERS_FOLDER_PATH: $(TARGET_NAME)
@@ -134,8 +166,46 @@ Targets:
           OTHER_LDFLAGS: ''
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           COPY_PHASE_STRIP: 'YES'
-          GCC_PREFIX_HEADER: Target Support Files/Pods-Reachability/Pods-Reachability-prefix.pch
-        Base Configuration: Pods-Reachability-Private.xcconfig
+          GCC_PREFIX_HEADER: Target Support Files/Pods-LocalPod/Pods-LocalPod-prefix.pch
+        Base Configuration: Pods-LocalPod-Private.xcconfig
+- SubSpec_1:
+    Build Phases:
+    - SourcesBuildPhase: []
+    - FrameworksBuildPhase: []
+    - ResourcesBuildPhase:
+      - resource.png
+    Build Configurations:
+    - Debug:
+        Build Settings:
+          WRAPPER_EXTENSION: bundle
+          SDKROOT: iphoneos
+          SKIP_INSTALL: 'YES'
+          PRODUCT_NAME: $(TARGET_NAME)
+    - Release:
+        Build Settings:
+          WRAPPER_EXTENSION: bundle
+          SDKROOT: iphoneos
+          SKIP_INSTALL: 'YES'
+          PRODUCT_NAME: $(TARGET_NAME)
+- SubSpec_2:
+    Build Phases:
+    - SourcesBuildPhase: []
+    - FrameworksBuildPhase: []
+    - ResourcesBuildPhase:
+      - resource.png
+    Build Configurations:
+    - Debug:
+        Build Settings:
+          WRAPPER_EXTENSION: bundle
+          SDKROOT: iphoneos
+          SKIP_INSTALL: 'YES'
+          PRODUCT_NAME: $(TARGET_NAME)
+    - Release:
+        Build Settings:
+          WRAPPER_EXTENSION: bundle
+          SDKROOT: iphoneos
+          SKIP_INSTALL: 'YES'
+          PRODUCT_NAME: $(TARGET_NAME)
 
 
 

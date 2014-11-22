@@ -1,0 +1,1 @@
+../../../../LocalPod/subspec_2/subspec_2.h

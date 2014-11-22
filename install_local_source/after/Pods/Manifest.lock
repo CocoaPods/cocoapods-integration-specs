@@ -1,14 +1,18 @@
 PODS:
-  - Reachability (3.1.0)
+  - LocalPod (1.0):
+    - LocalPod/subspec_1
+    - LocalPod/subspec_2
+  - LocalPod/subspec_1 (1.0)
+  - LocalPod/subspec_2 (1.0)
 
 DEPENDENCIES:
-  - Reachability (from `Reachability`)
+  - LocalPod (from `LocalPod`)
 
 EXTERNAL SOURCES:
-  Reachability:
-    :local: Reachability
+  LocalPod:
+    :path: LocalPod
 
 SPEC CHECKSUMS:
-  Reachability: b14c20321fa00f7f4600d8c9856fc57e71ef2ffe
+  LocalPod: a7695587316e249433abb8f87f0e9910d3362a9e
 
 COCOAPODS: 0.34.2
