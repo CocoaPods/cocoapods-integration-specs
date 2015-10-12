@@ -27,7 +27,7 @@ Downloading dependencies
      If you want to create a new branch to retain commits you create, you may
      do so (now or later) by using -b with the checkout command again. Example:
      
-       git checkout -b new_branch_name
+       git checkout -b <new-branch-name>
      
   - Running pre install hooks
 

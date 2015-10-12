@@ -40,7 +40,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           EXECUTABLE_PREFIX: lib
           MACH_O_TYPE: staticlib
@@ -48,14 +48,14 @@ Targets:
           MTL_ENABLE_DEBUG_INFO: 'YES'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
-          PRODUCT_NAME: $(TARGET_NAME)
+          PODS_ROOT: "$(SRCROOT)"
+          PRODUCT_NAME: "$(TARGET_NAME)"
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
         Base Configuration: Pods-SampleApp.debug.xcconfig
     - Release:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           EXECUTABLE_PREFIX: lib
@@ -64,8 +64,8 @@ Targets:
           MTL_ENABLE_DEBUG_INFO: 'NO'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
-          PRODUCT_NAME: $(TARGET_NAME)
+          PODS_ROOT: "$(SRCROOT)"
+          PRODUCT_NAME: "$(TARGET_NAME)"
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
         Base Configuration: Pods-SampleApp.release.xcconfig
@@ -73,14 +73,14 @@ Targets:
     Build Phases:
     - SourcesBuildPhase:
       - foo.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - res-dummy.m
     - FrameworksBuildPhase:
       - Cocoa.framework
     Build Configurations:
     - Debug:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           EXECUTABLE_PREFIX: lib
           GCC_PREFIX_HEADER: Target Support Files/res/res-prefix.pch
@@ -89,13 +89,13 @@ Targets:
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_NAME: $(TARGET_NAME)
+          PRODUCT_NAME: "$(TARGET_NAME)"
           PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: macosx
         Base Configuration: res.xcconfig
     - Release:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           EXECUTABLE_PREFIX: lib
@@ -105,7 +105,7 @@ Targets:
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_NAME: $(TARGET_NAME)
+          PRODUCT_NAME: "$(TARGET_NAME)"
           PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: macosx
         Base Configuration: res.xcconfig
@@ -120,7 +120,7 @@ Targets:
         Build Settings:
           COMBINE_HIDPI_IMAGES: 'YES'
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Bundles
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
           PRODUCT_NAME: res
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -130,7 +130,7 @@ Targets:
         Build Settings:
           COMBINE_HIDPI_IMAGES: 'YES'
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Bundles
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
           PRODUCT_NAME: res
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -162,7 +162,7 @@ Build Configurations:
       GCC_OPTIMIZATION_LEVEL: '0'
       GCC_PREPROCESSOR_DEFINITIONS:
       - DEBUG=1
-      - $(inherited)
+      - "$(inherited)"
       GCC_SYMBOLS_PRIVATE_EXTERN: 'NO'
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       GCC_WARN_ABOUT_RETURN_TYPE: 'YES'
@@ -173,7 +173,7 @@ Build Configurations:
       MACOSX_DEPLOYMENT_TARGET: '10.8'
       ONLY_ACTIVE_ARCH: 'YES'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
 - Release:
     Build Settings:
       ALWAYS_SEARCH_USER_PATHS: 'NO'
@@ -202,5 +202,5 @@ Build Configurations:
       GCC_WARN_UNUSED_VARIABLE: 'YES'
       MACOSX_DEPLOYMENT_TARGET: '10.8'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
       VALIDATE_PRODUCT: 'YES'

@@ -67,19 +67,19 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           FRAMEWORK_VERSION: A
           INFOPLIST_FILE: Target Support Files/Pods-SampleApp/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap
           MTL_ENABLE_DEBUG_INFO: 'YES'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
+          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_NAME: Pods_SampleApp
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -94,19 +94,19 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           FRAMEWORK_VERSION: A
           INFOPLIST_FILE: Target Support Files/Pods-SampleApp/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap
           MTL_ENABLE_DEBUG_INFO: 'NO'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
+          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_NAME: Pods_SampleApp
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -131,19 +131,19 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           FRAMEWORK_VERSION: A
           INFOPLIST_FILE: Target Support Files/Pods-SampleAppTests/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.modulemap
           MTL_ENABLE_DEBUG_INFO: 'YES'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
+          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_NAME: Pods_SampleAppTests
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -158,19 +158,19 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           FRAMEWORK_VERSION: A
           INFOPLIST_FILE: Target Support Files/Pods-SampleAppTests/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.modulemap
           MTL_ENABLE_DEBUG_INFO: 'NO'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
+          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_NAME: Pods_SampleAppTests
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -181,7 +181,7 @@ Targets:
     Build Phases:
     - SourcesBuildPhase:
       - Foo.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - SamplePodWithResources-dummy.m
     - FrameworksBuildPhase:
       - Cocoa.framework
@@ -200,13 +200,13 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           FRAMEWORK_VERSION: A
           GCC_PREFIX_HEADER: Target Support Files/SamplePodWithResources/SamplePodWithResources-prefix.pch
           INFOPLIST_FILE: Target Support Files/SamplePodWithResources/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources.modulemap
           MTL_ENABLE_DEBUG_INFO: 'YES'
@@ -224,13 +224,13 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           FRAMEWORK_VERSION: A
           GCC_PREFIX_HEADER: Target Support Files/SamplePodWithResources/SamplePodWithResources-prefix.pch
           INFOPLIST_FILE: Target Support Files/SamplePodWithResources/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources.modulemap
           MTL_ENABLE_DEBUG_INFO: 'NO'
@@ -251,7 +251,7 @@ Targets:
         Build Settings:
           COMBINE_HIDPI_IMAGES: 'YES'
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Bundles
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
           PRODUCT_NAME: SamplePodWithResources
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -261,7 +261,7 @@ Targets:
         Build Settings:
           COMBINE_HIDPI_IMAGES: 'YES'
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Bundles
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
           PRODUCT_NAME: SamplePodWithResources
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -293,7 +293,7 @@ Build Configurations:
       GCC_OPTIMIZATION_LEVEL: '0'
       GCC_PREPROCESSOR_DEFINITIONS:
       - DEBUG=1
-      - $(inherited)
+      - "$(inherited)"
       GCC_SYMBOLS_PRIVATE_EXTERN: 'NO'
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       GCC_WARN_ABOUT_RETURN_TYPE: 'YES'
@@ -304,7 +304,7 @@ Build Configurations:
       MACOSX_DEPLOYMENT_TARGET: '10.10'
       ONLY_ACTIVE_ARCH: 'YES'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
 - Release:
     Build Settings:
       ALWAYS_SEARCH_USER_PATHS: 'NO'
@@ -333,5 +333,5 @@ Build Configurations:
       GCC_WARN_UNUSED_VARIABLE: 'YES'
       MACOSX_DEPLOYMENT_TARGET: '10.10'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
       VALIDATE_PRODUCT: 'YES'

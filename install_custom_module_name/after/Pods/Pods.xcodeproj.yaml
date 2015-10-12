@@ -94,35 +94,35 @@ Targets:
     - SourcesBuildPhase:
       - libPusher-dummy.m
       - NSDictionary+QueryString.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - NSString+Hashing.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTBlockEventListener.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTJSON.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusher+Testing.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusher.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherAPI.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherChannel.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherChannelAuthorizationOperation.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherConnection.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherEvent.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherEventDispatcher.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTPusherMockConnection.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTTargetActionEventListener.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - PTURLRequestOperation.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
     - FrameworksBuildPhase:
       - Foundation.framework
       - SocketRocket.framework
@@ -207,13 +207,13 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/libPusher/libPusher-prefix.pch
           INFOPLIST_FILE: Target Support Files/libPusher/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.2'
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/libPusher/libPusher.modulemap
           MTL_ENABLE_DEBUG_INFO: 'YES'
           PRODUCT_NAME: Pusher
@@ -230,13 +230,13 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/libPusher/libPusher-prefix.pch
           INFOPLIST_FILE: Target Support Files/libPusher/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.2'
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/libPusher/libPusher.modulemap
           MTL_ENABLE_DEBUG_INFO: 'NO'
           PRODUCT_NAME: Pusher
@@ -264,18 +264,18 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           INFOPLIST_FILE: Target Support Files/Pods/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.2'
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MODULEMAP_FILE: Target Support Files/Pods/Pods.modulemap
           MTL_ENABLE_DEBUG_INFO: 'YES'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
+          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_NAME: Pods
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
@@ -290,18 +290,18 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           INFOPLIST_FILE: Target Support Files/Pods/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.2'
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MODULEMAP_FILE: Target Support Files/Pods/Pods.modulemap
           MTL_ENABLE_DEBUG_INFO: 'NO'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
+          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_NAME: Pods
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
@@ -313,12 +313,12 @@ Targets:
     Build Phases:
     - SourcesBuildPhase:
       - base64.c:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - NSData+SRB64Additions.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
       - SocketRocket-dummy.m
       - SRWebSocket.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
     - FrameworksBuildPhase:
       - CFNetwork.framework
       - Foundation.framework
@@ -344,13 +344,13 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/SocketRocket/SocketRocket-prefix.pch
           INFOPLIST_FILE: Target Support Files/SocketRocket/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.2'
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/SocketRocket/SocketRocket.modulemap
           MTL_ENABLE_DEBUG_INFO: 'YES'
           PRODUCT_NAME: SocketRocket
@@ -367,13 +367,13 @@ Targets:
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
-          DYLIB_INSTALL_NAME_BASE: '@rpath'
+          DYLIB_INSTALL_NAME_BASE: "@rpath"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/SocketRocket/SocketRocket-prefix.pch
           INFOPLIST_FILE: Target Support Files/SocketRocket/Info.plist
-          INSTALL_PATH: $(LOCAL_LIBRARY_DIR)/Frameworks
+          INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.2'
-          LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/SocketRocket/SocketRocket.modulemap
           MTL_ENABLE_DEBUG_INFO: 'NO'
           PRODUCT_NAME: SocketRocket
@@ -409,7 +409,7 @@ Build Configurations:
       GCC_OPTIMIZATION_LEVEL: '0'
       GCC_PREPROCESSOR_DEFINITIONS:
       - DEBUG=1
-      - $(inherited)
+      - "$(inherited)"
       GCC_SYMBOLS_PRIVATE_EXTERN: 'NO'
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       GCC_WARN_ABOUT_RETURN_TYPE: 'YES'
@@ -420,7 +420,7 @@ Build Configurations:
       IPHONEOS_DEPLOYMENT_TARGET: '8.2'
       ONLY_ACTIVE_ARCH: 'YES'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
 - Release:
     Build Settings:
       ALWAYS_SEARCH_USER_PATHS: 'NO'
@@ -449,5 +449,5 @@ Build Configurations:
       GCC_WARN_UNUSED_VARIABLE: 'YES'
       IPHONEOS_DEPLOYMENT_TARGET: '8.2'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
       VALIDATE_PRODUCT: 'YES'

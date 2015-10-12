@@ -42,7 +42,7 @@ Targets:
     - SourcesBuildPhase:
       - JSONKit-dummy.m
       - JSONKit.m:
-          COMPILER_FLAGS: -fno-objc-arc
+          COMPILER_FLAGS: "-fno-objc-arc"
     - FrameworksBuildPhase:
       - Foundation.framework
     - HeadersBuildPhase:
@@ -52,7 +52,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/JSONKit/JSONKit-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
@@ -60,14 +60,14 @@ Targets:
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_NAME: $(TARGET_NAME)
+          PRODUCT_NAME: "$(TARGET_NAME)"
           PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
         Base Configuration: JSONKit.xcconfig
     - Release:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/JSONKit/JSONKit-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
@@ -75,7 +75,7 @@ Targets:
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_NAME: $(TARGET_NAME)
+          PRODUCT_NAME: "$(TARGET_NAME)"
           PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
@@ -89,29 +89,29 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           MACH_O_TYPE: staticlib
           MTL_ENABLE_DEBUG_INFO: 'YES'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
-          PRODUCT_NAME: $(TARGET_NAME)
+          PODS_ROOT: "$(SRCROOT)"
+          PRODUCT_NAME: "$(TARGET_NAME)"
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
         Base Configuration: Pods.debug.xcconfig
     - Release:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           MACH_O_TYPE: staticlib
           MTL_ENABLE_DEBUG_INFO: 'NO'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: $(SRCROOT)
-          PRODUCT_NAME: $(TARGET_NAME)
+          PODS_ROOT: "$(SRCROOT)"
+          PRODUCT_NAME: "$(TARGET_NAME)"
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
         Base Configuration: Pods.release.xcconfig
@@ -120,7 +120,7 @@ Targets:
     - SourcesBuildPhase:
       - Reachability-dummy.m
       - Reachability.m:
-          COMPILER_FLAGS: -DOS_OBJECT_USE_OBJC=0
+          COMPILER_FLAGS: "-DOS_OBJECT_USE_OBJC=0"
     - FrameworksBuildPhase:
       - Foundation.framework
       - SystemConfiguration.framework
@@ -131,7 +131,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/Reachability/Reachability-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
@@ -139,14 +139,14 @@ Targets:
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_NAME: $(TARGET_NAME)
+          PRODUCT_NAME: "$(TARGET_NAME)"
           PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
         Base Configuration: Reachability.xcconfig
     - Release:
         Build Settings:
-          ARCHS: $(ARCHS_STANDARD_64_BIT)
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           ENABLE_STRICT_OBJC_MSGSEND: 'YES'
           GCC_PREFIX_HEADER: Target Support Files/Reachability/Reachability-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
@@ -154,7 +154,7 @@ Targets:
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_NAME: $(TARGET_NAME)
+          PRODUCT_NAME: "$(TARGET_NAME)"
           PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
@@ -185,7 +185,7 @@ Build Configurations:
       GCC_OPTIMIZATION_LEVEL: '0'
       GCC_PREPROCESSOR_DEFINITIONS:
       - DEBUG=1
-      - $(inherited)
+      - "$(inherited)"
       GCC_SYMBOLS_PRIVATE_EXTERN: 'NO'
       GCC_WARN_64_TO_32_BIT_CONVERSION: 'YES'
       GCC_WARN_ABOUT_RETURN_TYPE: 'YES'
@@ -196,7 +196,7 @@ Build Configurations:
       IPHONEOS_DEPLOYMENT_TARGET: '6.0'
       ONLY_ACTIVE_ARCH: 'YES'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
 - Release:
     Build Settings:
       ALWAYS_SEARCH_USER_PATHS: 'NO'
@@ -225,5 +225,5 @@ Build Configurations:
       GCC_WARN_UNUSED_VARIABLE: 'YES'
       IPHONEOS_DEPLOYMENT_TARGET: '6.0'
       STRIP_INSTALLED_PRODUCT: 'NO'
-      SYMROOT: ${SRCROOT}/../build
+      SYMROOT: "${SRCROOT}/../build"
       VALIDATE_PRODUCT: 'YES'
