@@ -48,6 +48,7 @@ Generating Pods project
     - Generating deterministic UUIDs
   - Writing Lockfile in `Podfile.lock`
   - Writing Manifest in `Pods/Manifest.lock`
+  - Writing Podfile checksum in `Pods/Podfile.sha1`
 
 Integrating client project
 
