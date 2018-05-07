@@ -143,15 +143,23 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CustomModuleMapPod-framework-iOS/CustomModuleMapPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CustomModuleMapPod-framework-macOS/CustomModuleMapPod.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MixedPod-framework-iOS/MixedPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MixedPod-framework-macOS/MixedPod.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjCPod-framework-iOS/ObjCPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ObjCPod-framework-macOS/ObjCPod.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftPod-framework-iOS/SwiftPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftPod-framework-macOS/SwiftPod.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CustomModuleMapPod-framework-iOS/CustomModuleMapPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CustomModuleMapPod-framework-macOS/CustomModuleMapPod.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MixedPod-framework-iOS/MixedPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MixedPod-framework-macOS/MixedPod.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ObjCPod-framework-iOS/ObjCPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ObjCPod-framework-macOS/ObjCPod.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftPod-framework-iOS/SwiftPod.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftPod-framework-macOS/SwiftPod.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
