@@ -537,8 +537,7 @@ Targets:
     - Sources:
       - CMM.m
       - CustomModuleMapPod-library-iOS-dummy.m
-    - Frameworks:
-      - Foundation.framework
+    - Frameworks: []
     - Headers:
       - CMM+Private.h:
           ATTRIBUTES:
@@ -647,8 +646,7 @@ Targets:
     - Sources:
       - CMM.m
       - CustomModuleMapPod-library-macOS-dummy.m
-    - Frameworks:
-      - Cocoa.framework
+    - Frameworks: []
     - Headers:
       - CMM+Private.h:
           ATTRIBUTES:
@@ -1010,8 +1008,7 @@ Targets:
       - bce.m
       - foo.swift
       - MixedPod-library-iOS-dummy.m
-    - Frameworks:
-      - Foundation.framework
+    - Frameworks: []
     - Headers:
       - bce.h:
           ATTRIBUTES:
@@ -1127,8 +1124,7 @@ Targets:
       - bce.m
       - foo.swift
       - MixedPod-library-macOS-dummy.m
-    - Frameworks:
-      - Cocoa.framework
+    - Frameworks: []
     - Headers:
       - bce.h:
           ATTRIBUTES:
@@ -1469,8 +1465,7 @@ Targets:
     - Sources:
       - abc.m
       - ObjCPod-library-iOS-dummy.m
-    - Frameworks:
-      - Foundation.framework
+    - Frameworks: []
     - Headers:
       - abc.h:
           ATTRIBUTES:
@@ -1576,8 +1571,7 @@ Targets:
     - Sources:
       - abc.m
       - ObjCPod-library-macOS-dummy.m
-    - Frameworks:
-      - Cocoa.framework
+    - Frameworks: []
     - Headers:
       - abc.h:
           ATTRIBUTES:
@@ -1757,8 +1751,7 @@ Targets:
     Build Phases:
     - Sources:
       - Pods-Abstract Target-iOS Pods-Static-dummy.m
-    - Frameworks:
-      - Foundation.framework
+    - Frameworks: []
     - Headers:
       - Pods-Abstract Target-iOS Pods-Static-umbrella.h:
           ATTRIBUTES:
@@ -1890,8 +1883,7 @@ Targets:
     Build Phases:
     - Sources:
       - Pods-Abstract Target-macOS Pods-Static-dummy.m
-    - Frameworks:
-      - Cocoa.framework
+    - Frameworks: []
     - Headers:
       - Pods-Abstract Target-macOS Pods-Static-umbrella.h:
           ATTRIBUTES:
@@ -2181,8 +2173,7 @@ Targets:
     - Sources:
       - SwiftPod-library-iOS-dummy.m
       - xyz.swift
-    - Frameworks:
-      - Foundation.framework
+    - Frameworks: []
     - Headers:
       - SwiftPod-library-iOS-umbrella.h:
           ATTRIBUTES:
@@ -2293,8 +2284,7 @@ Targets:
     - Sources:
       - SwiftPod-library-macOS-dummy.m
       - xyz.swift
-    - Frameworks:
-      - Cocoa.framework
+    - Frameworks: []
     - Headers:
       - SwiftPod-library-macOS-umbrella.h:
           ATTRIBUTES:

@@ -13,7 +13,6 @@ File References:
       - Reachability-prefix.pch
 - Frameworks:
   - iOS:
-    - Foundation.framework
     - SystemConfiguration.framework
 - Products:
   - libPods-iOS App.a
@@ -35,8 +34,7 @@ Targets:
     Build Phases:
     - Sources:
       - Pods-iOS App-dummy.m
-    - Frameworks:
-      - Foundation.framework
+    - Frameworks: []
     Build Configurations:
     - Debug:
         Build Settings:
@@ -84,7 +82,6 @@ Targets:
       - Reachability.m:
           COMPILER_FLAGS: "-fno-objc-arc"
     - Frameworks:
-      - Foundation.framework
       - SystemConfiguration.framework
     - Headers:
       - Reachability.h:
