@@ -58,6 +58,7 @@ Generating Pods project
       - Generating dummy source at `Pods/Target Support Files/Pods-OtherSampleApp/Pods-OtherSampleApp-dummy.m`
     - Installing target `Pods-SampleApp` iOS 10.0
       - Generating dummy source at `Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-dummy.m`
+  - Installing app hosts
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
     - Generating deterministic UUIDs
