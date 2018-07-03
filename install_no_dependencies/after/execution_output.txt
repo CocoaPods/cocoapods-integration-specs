@@ -23,6 +23,7 @@ Generating Pods project
   - Installing targets
     - Installing target `Pods-SampleApp` macOS 10.8
       - Generating dummy source at `Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-dummy.m`
+  - Installing app hosts
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
     - Generating deterministic UUIDs

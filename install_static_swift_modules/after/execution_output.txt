@@ -210,6 +210,7 @@ Integrating target `SwiftPod-library-iOS`
 Integrating target `SwiftPod-library-macOS`
     Adding Build Phase '[CP] Embed Pods Frameworks' to project.
     Adding Build Phase '[CP] Copy Pods Resources' to project.
+  - Installing app hosts
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
     - Generating deterministic UUIDs

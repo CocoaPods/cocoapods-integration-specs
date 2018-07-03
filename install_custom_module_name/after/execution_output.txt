@@ -72,6 +72,7 @@ Generating Pods project
       - Generating module map file at `Pods/Target Support Files/Pods-Example/Pods-Example.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/Pods-Example/Pods-Example-umbrella.h`
       - Generating dummy source at `Pods/Target Support Files/Pods-Example/Pods-Example-dummy.m`
+  - Installing app hosts
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
     - Generating deterministic UUIDs
