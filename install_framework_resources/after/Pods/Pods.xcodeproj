@@ -34,7 +34,6 @@ File References:
     - Pods-SampleApp-dummy.m
     - Pods-SampleApp-frameworks.sh
     - Pods-SampleApp-Info.plist
-    - Pods-SampleApp-resources.sh
     - Pods-SampleApp-umbrella.h
     - Pods-SampleApp.debug.xcconfig
     - Pods-SampleApp.release.xcconfig
@@ -43,9 +42,7 @@ File References:
     - Pods-SampleAppTests-acknowledgements.markdown
     - Pods-SampleAppTests-acknowledgements.plist
     - Pods-SampleAppTests-dummy.m
-    - Pods-SampleAppTests-frameworks.sh
     - Pods-SampleAppTests-Info.plist
-    - Pods-SampleAppTests-resources.sh
     - Pods-SampleAppTests-umbrella.h
     - Pods-SampleAppTests.debug.xcconfig
     - Pods-SampleAppTests.release.xcconfig
@@ -67,6 +64,7 @@ Targets:
     - Debug:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -98,6 +96,7 @@ Targets:
     - Release:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -140,6 +139,7 @@ Targets:
     - Debug:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -171,6 +171,7 @@ Targets:
     - Release:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -217,6 +218,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -245,6 +247,7 @@ Targets:
         Base Configuration: SamplePodWithResources.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''

@@ -259,7 +259,6 @@ File References:
     - Pods-Abstract Target-iOS Pods-Dynamic-dummy.m
     - Pods-Abstract Target-iOS Pods-Dynamic-frameworks.sh
     - Pods-Abstract Target-iOS Pods-Dynamic-Info.plist
-    - Pods-Abstract Target-iOS Pods-Dynamic-resources.sh
     - Pods-Abstract Target-iOS Pods-Dynamic-umbrella.h
     - Pods-Abstract Target-iOS Pods-Dynamic.debug.xcconfig
     - Pods-Abstract Target-iOS Pods-Dynamic.release.xcconfig
@@ -268,8 +267,6 @@ File References:
     - Pods-Abstract Target-iOS Pods-Static-acknowledgements.markdown
     - Pods-Abstract Target-iOS Pods-Static-acknowledgements.plist
     - Pods-Abstract Target-iOS Pods-Static-dummy.m
-    - Pods-Abstract Target-iOS Pods-Static-frameworks.sh
-    - Pods-Abstract Target-iOS Pods-Static-resources.sh
     - Pods-Abstract Target-iOS Pods-Static-umbrella.h
     - Pods-Abstract Target-iOS Pods-Static.debug.xcconfig
     - Pods-Abstract Target-iOS Pods-Static.release.xcconfig
@@ -280,7 +277,6 @@ File References:
     - Pods-Abstract Target-macOS Pods-Dynamic-dummy.m
     - Pods-Abstract Target-macOS Pods-Dynamic-frameworks.sh
     - Pods-Abstract Target-macOS Pods-Dynamic-Info.plist
-    - Pods-Abstract Target-macOS Pods-Dynamic-resources.sh
     - Pods-Abstract Target-macOS Pods-Dynamic-umbrella.h
     - Pods-Abstract Target-macOS Pods-Dynamic.debug.xcconfig
     - Pods-Abstract Target-macOS Pods-Dynamic.release.xcconfig
@@ -289,8 +285,6 @@ File References:
     - Pods-Abstract Target-macOS Pods-Static-acknowledgements.markdown
     - Pods-Abstract Target-macOS Pods-Static-acknowledgements.plist
     - Pods-Abstract Target-macOS Pods-Static-dummy.m
-    - Pods-Abstract Target-macOS Pods-Static-frameworks.sh
-    - Pods-Abstract Target-macOS Pods-Static-resources.sh
     - Pods-Abstract Target-macOS Pods-Static-umbrella.h
     - Pods-Abstract Target-macOS Pods-Static.debug.xcconfig
     - Pods-Abstract Target-macOS Pods-Static.release.xcconfig
@@ -435,6 +429,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -464,6 +459,7 @@ Targets:
         Base Configuration: CustomModuleMapPod-framework-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -504,6 +500,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -519,6 +516,7 @@ Targets:
         Base Configuration: CustomModuleMapPod-framework-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -659,6 +657,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -681,6 +680,7 @@ Targets:
         Base Configuration: CustomModuleMapPod-library-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -712,6 +712,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -730,6 +731,7 @@ Targets:
         Base Configuration: CustomModuleMapPod-library-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -891,6 +893,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -921,6 +924,7 @@ Targets:
         Base Configuration: MixedPod-framework-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -963,6 +967,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -982,6 +987,7 @@ Targets:
         Base Configuration: MixedPod-framework-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1129,6 +1135,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1152,6 +1159,7 @@ Targets:
         Base Configuration: MixedPod-library-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1185,6 +1193,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1207,6 +1216,7 @@ Targets:
         Base Configuration: MixedPod-library-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1355,6 +1365,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1384,6 +1395,7 @@ Targets:
         Base Configuration: ObjCPod-framework-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1424,6 +1436,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1439,6 +1452,7 @@ Targets:
         Base Configuration: ObjCPod-framework-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1573,6 +1587,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1595,6 +1610,7 @@ Targets:
         Base Configuration: ObjCPod-library-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1626,6 +1642,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1644,6 +1661,7 @@ Targets:
         Base Configuration: ObjCPod-library-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1807,6 +1825,7 @@ Targets:
     - Debug:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1842,6 +1861,7 @@ Targets:
     - Release:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1886,6 +1906,7 @@ Targets:
     - Debug:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -1908,6 +1929,7 @@ Targets:
     - Release:
         Build Settings:
           ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2058,6 +2080,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2088,6 +2111,7 @@ Targets:
         Base Configuration: SwiftPod-framework-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2129,6 +2153,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2148,6 +2173,7 @@ Targets:
         Base Configuration: SwiftPod-framework-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2286,6 +2312,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2309,6 +2336,7 @@ Targets:
         Base Configuration: SwiftPod-library-macOS.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2341,6 +2369,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -2363,6 +2392,7 @@ Targets:
         Base Configuration: SwiftPod-library-macOS.unit.xcconfig
     - Release:
         Build Settings:
+          ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
