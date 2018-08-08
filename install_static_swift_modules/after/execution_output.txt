@@ -26,12 +26,16 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing CustomModuleMapPod (0.0.1)
+  > Linking `Pods/CustomModuleMapPod` -> `../CustomModuleMapPod`
 
 -> Installing MixedPod (0.0.1)
+  > Linking `Pods/MixedPod` -> `../MixedPod`
 
 -> Installing ObjCPod (0.0.1)
+  > Linking `Pods/ObjCPod` -> `../ObjCPod`
 
 -> Installing SwiftPod (0.0.1)
+  > Linking `Pods/SwiftPod` -> `../SwiftPod`
   - Running pre install hooks
 
 Generating Pods project

@@ -20,8 +20,10 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing DepPod (1.0.0)
+  > Linking `Pods/DepPod` -> `../DepPod`
 
 -> Installing HeaderMappingsDirPod (1.0.0)
+  > Linking `Pods/HeaderMappingsDirPod` -> `../HeaderMappingsDirPod`
   - Running pre install hooks
 
 Generating Pods project

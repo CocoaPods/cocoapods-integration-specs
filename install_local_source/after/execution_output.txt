@@ -17,6 +17,7 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing Reachability (3.1.0)
+  > Linking `Pods/Reachability` -> `../Reachability`
   - Running pre install hooks
 
 Generating Pods project

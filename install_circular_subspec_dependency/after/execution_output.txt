@@ -21,10 +21,13 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing Pod1 (1.0)
+  > Linking `Pods/Pod1` -> `../DeveloperPods/Pod1`
 
 -> Installing Pod2 (1.0)
+  > Linking `Pods/Pod2` -> `../DeveloperPods/Pod2`
 
 -> Installing Pod3 (1.0)
+  > Linking `Pods/Pod3` -> `../DeveloperPods/Pod3`
   - Running pre install hooks
 
 Generating Pods project

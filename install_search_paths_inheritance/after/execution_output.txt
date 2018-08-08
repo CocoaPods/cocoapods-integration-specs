@@ -42,12 +42,16 @@ Downloading dependencies
 
 
 -> Installing asserts (0.0.1)
+  > Linking `Pods/asserts` -> `../asserts`
 
 -> Installing logger (0.0.1)
+  > Linking `Pods/logger` -> `../logger`
 
 -> Installing sharedlib (0.0.1)
+  > Linking `Pods/sharedlib` -> `../sharedlib`
 
 -> Installing testkit (0.0.1)
+  > Linking `Pods/testkit` -> `../testkit`
   - Running pre install hooks
 
 Generating Pods project

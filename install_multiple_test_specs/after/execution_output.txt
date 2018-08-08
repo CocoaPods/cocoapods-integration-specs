@@ -20,6 +20,7 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing TestLib (0.1.0)
+  > Linking `Pods/TestLib` -> `../TestLib`
   - Running pre install hooks
 
 Generating Pods project

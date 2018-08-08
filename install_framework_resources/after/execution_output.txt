@@ -18,6 +18,7 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing SamplePodWithResources (0.1.0)
+  > Linking `Pods/SamplePodWithResources` -> `../SamplePodWithResources`
   - Running pre install hooks
 
 Generating Pods project

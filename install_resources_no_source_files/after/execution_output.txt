@@ -17,6 +17,7 @@ Comparing resolved specification to the sandbox manifest
 Downloading dependencies
 
 -> Installing res (0.1.0)
+  > Linking `Pods/res` -> `../res`
   - Running pre install hooks
 
 Generating Pods project
