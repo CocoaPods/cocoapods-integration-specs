@@ -1,0 +1,56 @@
+CLAIDE_DISABLE_AUTO_WRAP=TRUE COCOAPODS_DISABLE_STATS=TRUE COCOAPODS_SKIP_CACHE=TRUE COCOAPODS_VALIDATOR_SKIP_XCODEBUILD=TRUE CP_REPOS_DIR=ROOT/spec/fixtures/spec-repos ruby ROOT/bin/pod install --no-repo-update --verbose --no-ansi 2>&1
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-iOS App`: (`$(ARCHS_STANDARD_64_BIT)`)
+  Using `ARCHS` setting to build architectures of target `Pods-iOS App 2`: (`$(ARCHS_STANDARD_64_BIT)`)
+  Using `ARCHS` setting to build architectures of target `Pods-iOS App 3`: (`$(ARCHS_STANDARD_64_BIT)`)
+
+Finding Podfile changes
+  - Reachability
+
+Resolving dependencies of `Podfile`
+
+Comparing resolved specification to the sandbox manifest
+  - Reachability
+
+Downloading dependencies
+
+-> Using Reachability (3.2)
+  - Running pre install hooks
+
+Generating Pods project
+  - Creating Pods project
+  - Adding source files to Pods project
+  - Adding frameworks to Pods project
+  - Adding libraries to Pods project
+  - Adding resources to Pods project
+  - Linking headers
+  - Installing targets
+    - Installing target `Reachability` iOS 6.0
+      - Generating dummy source at `Pods/Target Support Files/Reachability/Reachability-dummy.m`
+    - Installing target `Pods-iOS App` iOS 6.1
+      - Generating dummy source at `Pods/Target Support Files/Pods-iOS App/Pods-iOS App-dummy.m`
+    - Installing target `Pods-iOS App 2` iOS 6.1
+      - Generating dummy source at `Pods/Target Support Files/Pods-iOS App 2/Pods-iOS App 2-dummy.m`
+    - Installing target `Pods-iOS App 3` iOS 6.1
+      - Generating dummy source at `Pods/Target Support Files/Pods-iOS App 3/Pods-iOS App 3-dummy.m`
+  - Running post install hooks
+  - Writing Xcode project file to `Pods/Pods.xcodeproj`
+    - Generating deterministic UUIDs
+  - Writing Lockfile in `Podfile.lock`
+  - Writing Manifest in `Pods/Manifest.lock`
+
+Integrating client project
+
+Integrating target `Pods-iOS App` (`SampleApp.xcodeproj` project)
+
+Integrating target `Pods-iOS App 2` (`SampleApp.xcodeproj` project)
+
+Integrating target `Pods-iOS App 3` (`SampleApp.xcodeproj` project)
+  - Running post install hooks
+    - cocoapods-stats from `cocoapods-stats/lib/cocoapods_plugin.rb`
+
+-> Pod installation complete! There are 3 dependencies from the Podfile and 1 total pod installed.

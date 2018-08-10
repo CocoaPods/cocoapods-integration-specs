@@ -1,0 +1,16 @@
+
+platform :ios, '6.1'
+
+target 'iOS App' do
+  podspec
+end
+
+target 'iOS App 2' do
+  pod 'Reachability', '3.2'
+end
+
+target 'iOS App 3' do
+  pod 'Reachability', 
+    :git => 'https://github.com/tonymillion/Reachability.git', 
+    :commit => '184d6d44f0f21b6428d833d265f5d0cfa1ed88d8'
+end

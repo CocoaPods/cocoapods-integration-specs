@@ -1,0 +1,20 @@
+PODS:
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - Reachability
+  - Reachability (= 3.2)
+  - Reachability (from `https://github.com/tonymillion/Reachability.git`, commit `184d6d44f0f21b6428d833d265f5d0cfa1ed88d8`)
+
+EXTERNAL SOURCES:
+  Reachability:
+    :commit: 184d6d44f0f21b6428d833d265f5d0cfa1ed88d8
+    :git: https://github.com/tonymillion/Reachability.git
+
+CHECKOUT OPTIONS:
+  Reachability:
+    :commit: 184d6d44f0f21b6428d833d265f5d0cfa1ed88d8
+    :git: https://github.com/tonymillion/Reachability.git
+
+SPEC CHECKSUMS:
+  Reachability: a439150119232b740e0b708aed6760a5965b858d
