@@ -15,108 +15,110 @@ Fetching external sources
 
 Resolving dependencies of `Podfile`
 
-Comparing resolved specification to the sandbox manifest
-  A CocoaLumberjack
-  A asserts
-  A logger
-  A sharedlib
-  A testkit
+――― MARKDOWN TEMPLATE ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
-Downloading dependencies
+### Command
 
--> Installing CocoaLumberjack (3.0.0)
- > Git download
- > Git download
-     $ GIT_BIN clone https://github.com/CocoaLumberjack/CocoaLumberjack.git PROJECT/Pods/CocoaLumberjack --template= --single-branch --depth 1 --branch 3.0.0
-     Cloning into 'PROJECT/Pods/CocoaLumberjack'...
-     Note: checking out '96f5978ea6339f17069d74c4652c79dee8f760b7'.
+```
+ROOT/bin/pod install --no-repo-update --verbose --no-ansi
+```
 
-     You are in 'detached HEAD' state. You can look around, make experimental
-     changes and commit them, and you can discard any commits you make in this
-     state without impacting any branches by performing another checkout.
+### Report
 
-     If you want to create a new branch to retain commits you create, you may
-     do so (now or later) by using -b with the checkout command again. Example:
+* What did you do?
 
-       git checkout -b new_branch_name
+* What did you expect to happen?
+
+* What happened instead?
 
 
--> Installing asserts (0.0.1)
+### Stack
 
--> Installing logger (0.0.1)
+```
+   CocoaPods : 1.6.0.beta.2
+        Ruby : ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+    RubyGems : 2.5.2.3
+        Host : Mac OS X 10.13.6 (17G65)
+       Xcode : 9.4.1 (9F2000)
+         Git : git version 2.15.2 (Apple Git-101.1)
+Ruby lib dir : /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib
+Repositories : master - https://github.com/CocoaPods/Specs.git @ e486ad4a691f9b24c894ac1ab6c9cbdf646765bc
+               test_repo - https://github.com/CocoaPods/cocoapods-test-specs.git @ 50dcbc10e278fc58d5a95e24b11c97bbcc90d0d0
+```
 
--> Installing sharedlib (0.0.1)
+### Plugins
 
--> Installing testkit (0.0.1)
-  - Running pre install hooks
+```
+claide-plugins         : 0.9.2
+cocoapods-deintegrate  : 1.0.2
+cocoapods-dependencies : 1.0.0.beta.1
+cocoapods-plugins      : 1.0.0
+cocoapods-search       : 1.0.0
+cocoapods-stats        : 1.0.0
+cocoapods-trunk        : 1.3.1
+cocoapods-try          : 1.1.0
+cocoapods_debug        : 0.1.0
+```
 
-Generating Pods project
-  - Creating Pods project
-  - Adding source files to Pods project
-  - Adding frameworks to Pods project
-  - Adding libraries to Pods project
-  - Adding resources to Pods project
-  - Adding development pod helper files to Pods project
-  - Linking headers
-  - Installing targets
-    - Installing target `CocoaLumberjack` iOS 8.0
-      - Generating module map file at `Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-dummy.m`
-    - Installing target `asserts` iOS 8.0
-      - Generating module map file at `Pods/Target Support Files/asserts/asserts.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/asserts/asserts-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/asserts/asserts-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/asserts/asserts-dummy.m`
-    - Installing target `logger` iOS 8.0
-      - Generating module map file at `Pods/Target Support Files/logger/logger.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/logger/logger-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/logger/logger-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/logger/logger-dummy.m`
-    - Installing target `sharedlib-Core` iOS 8.0
-      - Generating module map file at `Pods/Target Support Files/sharedlib-Core/sharedlib-Core.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/sharedlib-Core/sharedlib-Core-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/sharedlib-Core/sharedlib-Core-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/sharedlib-Core/sharedlib-Core-dummy.m`
-    - Installing target `sharedlib-Testing` iOS 8.0
-      - Generating module map file at `Pods/Target Support Files/sharedlib-Testing/sharedlib-Testing.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/sharedlib-Testing/sharedlib-Testing-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/sharedlib-Testing/sharedlib-Testing-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/sharedlib-Testing/sharedlib-Testing-dummy.m`
-    - Installing target `testkit` iOS 8.0
-      - Generating module map file at `Pods/Target Support Files/testkit/testkit.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/testkit/testkit-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/testkit/testkit-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/testkit/testkit-dummy.m`
-    - Installing target `Pods-App` iOS 8.0
-      - Generating Info.plist file at `Pods/Target Support Files/Pods-App/Pods-App-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/Pods-App/Pods-App.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Pods-App/Pods-App-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
-    - Installing target `Pods-Test` iOS 8.0
-      - Generating Info.plist file at `Pods/Target Support Files/Pods-Test/Pods-Test-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/Pods-Test/Pods-Test.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Pods-Test/Pods-Test-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Pods-Test/Pods-Test-dummy.m`
-  - Running post install hooks
-  - Writing Xcode project file to `Pods/Pods.xcodeproj`
-    - Generating deterministic UUIDs
-  - Writing Lockfile in `Podfile.lock`
-  - Writing Manifest in `Pods/Manifest.lock`
+### Podfile
 
-Integrating client project
+```ruby
+platform :ios, '8.0'
 
-[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+target 'App' do
+  use_frameworks!
 
-Integrating target `Pods-App` (`App.xcodeproj` project)
-  Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  pod 'logger', path: 'logger'
+  pod 'sharedlib/Core', path: 'sharedlib'
+  pod 'asserts', path: 'asserts'
 
-Integrating target `Pods-Test` (`App.xcodeproj` project)
-  Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
-  - Running post install hooks
-    - cocoapods-stats from `cocoapods-stats/lib/cocoapods_plugin.rb`
+  target 'Test' do
+    inherit! :search_paths
 
--> Pod installation complete! There are 5 dependencies from the Podfile and 5 total pods installed.
+    pod 'testkit', path: 'testkit'
+    pod 'sharedlib/Testing', path: 'sharedlib'
+  end
+end
+```
+
+### Error
+
+```
+NoMethodError - undefined method `concat' for nil:NilClass
+ROOT/lib/cocoapods/installer/analyzer.rb:576:in `block (2 levels) in generate_pod_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:566:in `each'
+ROOT/lib/cocoapods/installer/analyzer.rb:566:in `block in generate_pod_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:564:in `each'
+ROOT/lib/cocoapods/installer/analyzer.rb:564:in `each_with_object'
+ROOT/lib/cocoapods/installer/analyzer.rb:564:in `generate_pod_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:401:in `generate_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:112:in `analyze'
+ROOT/lib/cocoapods/installer.rb:266:in `analyze'
+ROOT/lib/cocoapods/installer.rb:174:in `block in resolve_dependencies'
+ROOT/lib/cocoapods/user_interface.rb:64:in `section'
+ROOT/lib/cocoapods/installer.rb:173:in `resolve_dependencies'
+ROOT/lib/cocoapods/installer.rb:136:in `install!'
+ROOT/lib/cocoapods/command/install.rb:48:in `run'
+/Users/derko/.rvm/gems/ruby-2.3.1/bundler/gems/CLAide-989df9f0cbd9/lib/claide/command.rb:334:in `run'
+ROOT/lib/cocoapods/command.rb:52:in `run'
+ROOT/bin/pod:55:in `<main>'
+```
+
+――― TEMPLATE END ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+[!] Oh no, an error occurred.
+
+Search for existing GitHub issues similar to yours:
+https://github.com/CocoaPods/CocoaPods/search?q=undefined+method+%60concat%27+for+nil%3ANilClass&type=Issues
+
+If none exists, create a ticket, with the template displayed above, on:
+https://github.com/CocoaPods/CocoaPods/issues/new
+
+Be sure to first read the contributing guide for details on how to properly submit a ticket:
+https://github.com/CocoaPods/CocoaPods/blob/master/CONTRIBUTING.md
+
+Don't forget to anonymize any private data!
+
+Looking for related issues on cocoapods/cocoapods...
+Found no similar issues. To create a new issue, please visit:
+https://github.com/cocoapods/cocoapods/issues/new

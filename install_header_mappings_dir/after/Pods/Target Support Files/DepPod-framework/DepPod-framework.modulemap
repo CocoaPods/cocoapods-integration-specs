@@ -1,6 +1,0 @@
-framework module DepPod {
-  umbrella header "DepPod-framework-umbrella.h"
-
-  export *
-  module * { export * }
-}

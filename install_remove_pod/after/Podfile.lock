@@ -1,12 +1,14 @@
+
 PODS:
-  - Reachability (3.1.0)
+- JSONKit (1.5pre)
+- Reachability (3.1.0)
 
 DEPENDENCIES:
-  - Reachability (= 3.1.0)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Reachability
+- JSONKit (= 1.5pre)
+- Reachability (= 3.1.0)
 
 SPEC CHECKSUMS:
-  Reachability: 3c8fe9643e52184d17f207e781cd84158da8c02b
+  JSONKit: 3d4708953ea7ae399a49777372d8b060a43ddd27
+  Reachability: 308e359ab9edc0992ae7881b7f631a8c34a51f16
+
+COCOAPODS: 1.0.0.beta.1

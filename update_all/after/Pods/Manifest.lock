@@ -1,12 +1,11 @@
+
 PODS:
-  - Reachability (3.1.0)
+- Reachability (2.0.5)
 
 DEPENDENCIES:
-  - Reachability (<= 3.1.0)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Reachability
+- Reachability (= 2.0.5)
 
 SPEC CHECKSUMS:
-  Reachability: 3c8fe9643e52184d17f207e781cd84158da8c02b
+  Reachability: 8d29c8365f72967b6decc8d2892a7d5dc6550799
+
+COCOAPODS: 1.0.0.beta.1

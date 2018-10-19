@@ -1,1 +1,1 @@
-const int BKBananaMagicNumber = 3;
+#error Prepare command didn't run.

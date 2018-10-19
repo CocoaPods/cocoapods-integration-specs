@@ -17,215 +17,124 @@ Fetching external sources
 
 Resolving dependencies of `Podfile`
 
-Comparing resolved specification to the sandbox manifest
-  A CustomModuleMapPod
-  A MixedPod
-  A ObjCPod
-  A SwiftPod
+――― MARKDOWN TEMPLATE ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
-Downloading dependencies
+### Command
 
--> Installing CustomModuleMapPod (0.0.1)
+```
+ROOT/bin/pod install --no-repo-update --verbose --no-ansi
+```
 
--> Installing MixedPod (0.0.1)
+### Report
 
--> Installing ObjCPod (0.0.1)
+* What did you do?
 
--> Installing SwiftPod (0.0.1)
-  - Running pre install hooks
+* What did you expect to happen?
 
-Generating Pods project
-  - Creating Pods project
-  - Adding source files to Pods project
-  - Adding frameworks to Pods project
-  - Adding libraries to Pods project
-  - Adding resources to Pods project
-  - Adding development pod helper files to Pods project
-  - Linking headers
-  - Installing targets
-    - Installing target `CustomModuleMapPod-framework-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-Unit-Tests-Info.plist`
-      - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS.modulemap`
-      - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-dummy.m`
-    - Installing target `CustomModuleMapPod-framework-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS-Unit-Tests-Info.plist`
-      - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS.modulemap`
-      - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS-dummy.m`
-    - Installing target `CustomModuleMapPod-library-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS-Unit-Tests-Info.plist`
-      - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS.modulemap`
-      - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS-dummy.m`
-    - Installing target `CustomModuleMapPod-library-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-library-macOS/CustomModuleMapPod-library-macOS-Unit-Tests-Info.plist`
-      - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-library-macOS/CustomModuleMapPod-library-macOS.modulemap`
-      - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-library-macOS/CustomModuleMapPod-library-macOS-dummy.m`
-    - Installing target `MixedPod-framework-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-dummy.m`
-    - Installing target `MixedPod-framework-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-dummy.m`
-    - Installing target `MixedPod-library-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-dummy.m`
-    - Installing target `MixedPod-library-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS-dummy.m`
-    - Installing target `ObjCPod-framework-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-dummy.m`
-    - Installing target `ObjCPod-framework-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-dummy.m`
-    - Installing target `ObjCPod-library-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-dummy.m`
-    - Installing target `ObjCPod-library-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS-dummy.m`
-    - Installing target `SwiftPod-framework-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-dummy.m`
-    - Installing target `SwiftPod-framework-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-umbrella.h`
-      - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-dummy.m`
-    - Installing target `SwiftPod-library-iOS` iOS 9.0
-      - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-dummy.m`
-    - Installing target `SwiftPod-library-macOS` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-library-macOS/SwiftPod-library-macOS-Unit-Tests-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/SwiftPod-library-macOS/SwiftPod-library-macOS.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/SwiftPod-library-macOS/SwiftPod-library-macOS-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/SwiftPod-library-macOS/SwiftPod-library-macOS-dummy.m`
-    - Installing target `Pods-Abstract Target-iOS Pods-Dynamic` iOS 10.0
-      - Generating Info.plist file at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Dynamic/Pods-Abstract Target-iOS Pods-Dynamic-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Dynamic/Pods-Abstract Target-iOS Pods-Dynamic.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Dynamic/Pods-Abstract Target-iOS Pods-Dynamic-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Dynamic/Pods-Abstract Target-iOS Pods-Dynamic-dummy.m`
-    - Installing target `Pods-Abstract Target-iOS Pods-Static` iOS 10.0
-      - Generating module map file at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Static/Pods-Abstract Target-iOS Pods-Static.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Static/Pods-Abstract Target-iOS Pods-Static-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Pods-Abstract Target-iOS Pods-Static/Pods-Abstract Target-iOS Pods-Static-dummy.m`
-    - Installing target `Pods-Abstract Target-macOS Pods-Dynamic` macOS 10.10
-      - Generating Info.plist file at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Dynamic/Pods-Abstract Target-macOS Pods-Dynamic-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Dynamic/Pods-Abstract Target-macOS Pods-Dynamic.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Dynamic/Pods-Abstract Target-macOS Pods-Dynamic-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Dynamic/Pods-Abstract Target-macOS Pods-Dynamic-dummy.m`
-    - Installing target `Pods-Abstract Target-macOS Pods-Static` macOS 10.10
-      - Generating module map file at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Static/Pods-Abstract Target-macOS Pods-Static.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Static/Pods-Abstract Target-macOS Pods-Static-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Pods-Abstract Target-macOS Pods-Static/Pods-Abstract Target-macOS Pods-Static-dummy.m`
-  - Integrating targets
+* What happened instead?
 
-Integrating target `CustomModuleMapPod-framework-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
 
-Integrating target `CustomModuleMapPod-framework-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+### Stack
 
-Integrating target `CustomModuleMapPod-library-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+```
+   CocoaPods : 1.6.0.beta.2
+        Ruby : ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+    RubyGems : 2.5.2.3
+        Host : Mac OS X 10.13.6 (17G65)
+       Xcode : 9.4.1 (9F2000)
+         Git : git version 2.15.2 (Apple Git-101.1)
+Ruby lib dir : /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib
+Repositories : master - https://github.com/CocoaPods/Specs.git @ e486ad4a691f9b24c894ac1ab6c9cbdf646765bc
+               test_repo - https://github.com/CocoaPods/cocoapods-test-specs.git @ 50dcbc10e278fc58d5a95e24b11c97bbcc90d0d0
+```
 
-Integrating target `CustomModuleMapPod-library-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+### Plugins
 
-Integrating target `MixedPod-framework-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+```
+claide-plugins         : 0.9.2
+cocoapods-deintegrate  : 1.0.2
+cocoapods-dependencies : 1.0.0.beta.1
+cocoapods-plugins      : 1.0.0
+cocoapods-search       : 1.0.0
+cocoapods-stats        : 1.0.0
+cocoapods-trunk        : 1.3.1
+cocoapods-try          : 1.1.0
+cocoapods_debug        : 0.1.0
+```
 
-Integrating target `MixedPod-framework-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+### Podfile
 
-Integrating target `MixedPod-library-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+```ruby
+workspace 'Examples.xcworkspace'
 
-Integrating target `MixedPod-library-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+use_modular_headers!
 
-Integrating target `ObjCPod-framework-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+abstract_target 'Abstract Target' do
+  pod 'ObjCPod', path: 'ObjCPod', :testspecs => %w[Tests]
+  pod 'SwiftPod', path: 'SwiftPod', :testspecs => %w[Tests]
+  pod 'MixedPod', path: 'MixedPod', :testspecs => %w[Tests]
+  pod 'CustomModuleMapPod', path: 'CustomModuleMapPod', :testspecs => %w[Tests]
 
-Integrating target `ObjCPod-framework-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+  %w[iOS macOS].each do |platform|
+    abstract_target "#{platform} Pods" do
+      project "#{platform} Modules.xcodeproj"
 
-Integrating target `ObjCPod-library-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+      case platform
+      when 'iOS' then self.platform :ios, '10.0'
+      when 'macOS' then self.platform :macos, '10.10'
+      end
 
-Integrating target `ObjCPod-library-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+      target 'Static' do
+          use_frameworks!(false)
+      end
+      target 'Dynamic' do
+          use_frameworks!(true)
+      end
+    end
+  end
+end
 
-Integrating target `SwiftPod-framework-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+```
 
-Integrating target `SwiftPod-framework-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+### Error
 
-Integrating target `SwiftPod-library-iOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
+```
+NoMethodError - undefined method `concat' for nil:NilClass
+ROOT/lib/cocoapods/installer/analyzer.rb:577:in `block (2 levels) in generate_pod_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:566:in `each'
+ROOT/lib/cocoapods/installer/analyzer.rb:566:in `block in generate_pod_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:564:in `each'
+ROOT/lib/cocoapods/installer/analyzer.rb:564:in `each_with_object'
+ROOT/lib/cocoapods/installer/analyzer.rb:564:in `generate_pod_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:401:in `generate_targets'
+ROOT/lib/cocoapods/installer/analyzer.rb:112:in `analyze'
+ROOT/lib/cocoapods/installer.rb:266:in `analyze'
+ROOT/lib/cocoapods/installer.rb:174:in `block in resolve_dependencies'
+ROOT/lib/cocoapods/user_interface.rb:64:in `section'
+ROOT/lib/cocoapods/installer.rb:173:in `resolve_dependencies'
+ROOT/lib/cocoapods/installer.rb:136:in `install!'
+ROOT/lib/cocoapods/command/install.rb:48:in `run'
+/Users/derko/.rvm/gems/ruby-2.3.1/bundler/gems/CLAide-989df9f0cbd9/lib/claide/command.rb:334:in `run'
+ROOT/lib/cocoapods/command.rb:52:in `run'
+ROOT/bin/pod:55:in `<main>'
+```
 
-Integrating target `SwiftPod-library-macOS`
-    Adding Build Phase '[CP] Embed Pods Frameworks' to project.
-    Adding Build Phase '[CP] Copy Pods Resources' to project.
-  - Running post install hooks
-  - Writing Xcode project file to `Pods/Pods.xcodeproj`
-    - Generating deterministic UUIDs
-  - Writing Lockfile in `Podfile.lock`
-  - Writing Manifest in `Pods/Manifest.lock`
+――― TEMPLATE END ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
-Integrating client projects
+[!] Oh no, an error occurred.
 
-Integrating target `Pods-Abstract Target-iOS Pods-Dynamic` (`iOS Modules.xcodeproj` project)
+Search for existing GitHub issues similar to yours:
+https://github.com/CocoaPods/CocoaPods/search?q=undefined+method+%60concat%27+for+nil%3ANilClass&type=Issues
 
-Integrating target `Pods-Abstract Target-iOS Pods-Static` (`iOS Modules.xcodeproj` project)
+If none exists, create a ticket, with the template displayed above, on:
+https://github.com/CocoaPods/CocoaPods/issues/new
 
-Integrating target `Pods-Abstract Target-macOS Pods-Dynamic` (`macOS Modules.xcodeproj` project)
+Be sure to first read the contributing guide for details on how to properly submit a ticket:
+https://github.com/CocoaPods/CocoaPods/blob/master/CONTRIBUTING.md
 
-Integrating target `Pods-Abstract Target-macOS Pods-Static` (`macOS Modules.xcodeproj` project)
-  - Running post install hooks
-    - cocoapods-stats from `cocoapods-stats/lib/cocoapods_plugin.rb`
+Don't forget to anonymize any private data!
 
--> Pod installation complete! There are 8 dependencies from the Podfile and 4 total pods installed.
+Looking for related issues on cocoapods/cocoapods...
+Found no similar issues. To create a new issue, please visit:
+https://github.com/cocoapods/cocoapods/issues/new
