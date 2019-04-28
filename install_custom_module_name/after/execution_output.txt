@@ -58,12 +58,12 @@ Generating Pods project
     - Adding resources
     - Linking headers
   - Installing Pod Targets
-    - Installing target `SocketRocket` iOS 8.0
+    - Installing target `SocketRocket` iOS 8.2
       - Generating module map file at `Pods/Target Support Files/SocketRocket/SocketRocket.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/SocketRocket/SocketRocket-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/SocketRocket/SocketRocket-Info.plist`
       - Generating dummy source at `Pods/Target Support Files/SocketRocket/SocketRocket-dummy.m`
-    - Installing target `libPusher` iOS 8.0
+    - Installing target `libPusher` iOS 8.2
       - Generating module map file at `Pods/Target Support Files/libPusher/libPusher.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/libPusher/libPusher-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/libPusher/libPusher-Info.plist`

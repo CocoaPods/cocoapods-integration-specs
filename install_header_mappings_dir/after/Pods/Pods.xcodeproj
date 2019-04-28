@@ -94,6 +94,7 @@ Targets:
     - Debug:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -105,7 +106,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/DepPod-framework/DepPod-framework-prefix.pch
           INFOPLIST_FILE: Target Support Files/DepPod-framework/DepPod-framework-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/DepPod-framework/DepPod-framework.modulemap
           PRODUCT_MODULE_NAME: DepPod
@@ -120,6 +121,7 @@ Targets:
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -131,7 +133,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/DepPod-framework/DepPod-framework-prefix.pch
           INFOPLIST_FILE: Target Support Files/DepPod-framework/DepPod-framework-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/DepPod-framework/DepPod-framework.modulemap
           PRODUCT_MODULE_NAME: DepPod
@@ -168,7 +170,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/DepPod-library/DepPod-library-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '4.3'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/DepPod/DepPod-library.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -190,7 +192,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/DepPod-library/DepPod-library-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '4.3'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/DepPod/DepPod-library.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -224,6 +226,7 @@ Targets:
     - Debug:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -235,7 +238,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/HeaderMappingsDirPod-framework/HeaderMappingsDirPod-framework-prefix.pch
           INFOPLIST_FILE: Target Support Files/HeaderMappingsDirPod-framework/HeaderMappingsDirPod-framework-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/HeaderMappingsDirPod-framework/HeaderMappingsDirPod-framework.modulemap
           PRODUCT_MODULE_NAME: HeaderMappingsDirPod
@@ -250,6 +253,7 @@ Targets:
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -261,7 +265,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/HeaderMappingsDirPod-framework/HeaderMappingsDirPod-framework-prefix.pch
           INFOPLIST_FILE: Target Support Files/HeaderMappingsDirPod-framework/HeaderMappingsDirPod-framework-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/HeaderMappingsDirPod-framework/HeaderMappingsDirPod-framework.modulemap
           PRODUCT_MODULE_NAME: HeaderMappingsDirPod
@@ -298,7 +302,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HeaderMappingsDirPod-library/HeaderMappingsDirPod-library-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '4.3'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/HeaderMappingsDirPod/HeaderMappingsDirPod-library.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -320,7 +324,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HeaderMappingsDirPod-library/HeaderMappingsDirPod-library-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '4.3'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/HeaderMappingsDirPod/HeaderMappingsDirPod-library.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''

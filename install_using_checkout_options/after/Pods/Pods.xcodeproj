@@ -266,7 +266,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/RKValueTransformers/RKValueTransformers-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: 5.1.1
+          IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -286,7 +286,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/RKValueTransformers/RKValueTransformers-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: 5.1.1
+          IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -314,13 +314,12 @@ Targets:
     - Debug:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
-          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/SEGModules/SEGModules-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '4.3'
+          IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -335,13 +334,12 @@ Targets:
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
-          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/SEGModules/SEGModules-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '4.3'
+          IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''

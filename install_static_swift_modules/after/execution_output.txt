@@ -44,7 +44,7 @@ Generating Pods project
     - Adding development pod helper files
     - Linking headers
   - Installing Pod Targets
-    - Installing target `CustomModuleMapPod-framework-iOS` iOS 9.0
+    - Installing target `CustomModuleMapPod-framework-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-Unit-Tests-Info.plist`
       - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS.modulemap`
       - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-Info.plist`
@@ -54,7 +54,7 @@ Generating Pods project
       - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS.modulemap`
       - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS-Info.plist`
       - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-framework-macOS/CustomModuleMapPod-framework-macOS-dummy.m`
-    - Installing target `CustomModuleMapPod-library-iOS` iOS 9.0
+    - Installing target `CustomModuleMapPod-library-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS-Unit-Tests-Info.plist`
       - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS.modulemap`
       - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS-dummy.m`
@@ -62,7 +62,7 @@ Generating Pods project
       - Generating Info.plist file at `Pods/Target Support Files/CustomModuleMapPod-library-macOS/CustomModuleMapPod-library-macOS-Unit-Tests-Info.plist`
       - Copying module map file to `Pods/Target Support Files/CustomModuleMapPod-library-macOS/CustomModuleMapPod-library-macOS.modulemap`
       - Generating dummy source at `Pods/Target Support Files/CustomModuleMapPod-library-macOS/CustomModuleMapPod-library-macOS-dummy.m`
-    - Installing target `MixedPod-framework-iOS` iOS 9.0
+    - Installing target `MixedPod-framework-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-Unit-Tests-Info.plist`
       - Generating module map file at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-umbrella.h`
@@ -74,7 +74,7 @@ Generating Pods project
       - Generating umbrella header at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-Info.plist`
       - Generating dummy source at `Pods/Target Support Files/MixedPod-framework-macOS/MixedPod-framework-macOS-dummy.m`
-    - Installing target `MixedPod-library-iOS` iOS 9.0
+    - Installing target `MixedPod-library-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-Unit-Tests-Info.plist`
       - Generating module map file at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-umbrella.h`
@@ -84,7 +84,7 @@ Generating Pods project
       - Generating module map file at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS-umbrella.h`
       - Generating dummy source at `Pods/Target Support Files/MixedPod-library-macOS/MixedPod-library-macOS-dummy.m`
-    - Installing target `ObjCPod-framework-iOS` iOS 9.0
+    - Installing target `ObjCPod-framework-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-Unit-Tests-Info.plist`
       - Generating module map file at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-umbrella.h`
@@ -96,7 +96,7 @@ Generating Pods project
       - Generating umbrella header at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-Info.plist`
       - Generating dummy source at `Pods/Target Support Files/ObjCPod-framework-macOS/ObjCPod-framework-macOS-dummy.m`
-    - Installing target `ObjCPod-library-iOS` iOS 9.0
+    - Installing target `ObjCPod-library-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-Unit-Tests-Info.plist`
       - Generating module map file at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-umbrella.h`
@@ -106,7 +106,7 @@ Generating Pods project
       - Generating module map file at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS-umbrella.h`
       - Generating dummy source at `Pods/Target Support Files/ObjCPod-library-macOS/ObjCPod-library-macOS-dummy.m`
-    - Installing target `SwiftPod-framework-iOS` iOS 9.0
+    - Installing target `SwiftPod-framework-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-Unit-Tests-Info.plist`
       - Generating module map file at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-umbrella.h`
@@ -118,7 +118,7 @@ Generating Pods project
       - Generating umbrella header at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-Info.plist`
       - Generating dummy source at `Pods/Target Support Files/SwiftPod-framework-macOS/SwiftPod-framework-macOS-dummy.m`
-    - Installing target `SwiftPod-library-iOS` iOS 9.0
+    - Installing target `SwiftPod-library-iOS` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-Unit-Tests-Info.plist`
       - Generating module map file at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-umbrella.h`

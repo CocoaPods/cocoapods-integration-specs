@@ -29,7 +29,7 @@ Generating Pods project
     - Adding development pod helper files
     - Linking headers
   - Installing Pod Targets
-    - Installing target `res` macOS 10.0
+    - Installing target `res` macOS 10.8
       - Generating Info.plist file at `Pods/Target Support Files/res/ResourceBundle-res-res-Info.plist`
       - Generating dummy source at `Pods/Target Support Files/res/res-dummy.m`
   - Installing Aggregate Targets

@@ -34,7 +34,7 @@ Generating Pods project
     - Adding resources
     - Linking headers
   - Installing Pod Targets
-    - Installing target `Test` iOS 5.0
+    - Installing target `Test` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/Test/Test-dummy.m`
   - Installing Aggregate Targets
     - Installing target `Pods-iOS App` iOS 6.0

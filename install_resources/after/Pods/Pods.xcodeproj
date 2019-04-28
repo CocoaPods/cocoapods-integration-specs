@@ -87,14 +87,13 @@ Targets:
     - Debug:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
-          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           EXECUTABLE_PREFIX: lib
           GCC_PREFIX_HEADER: Target Support Files/res/res-prefix.pch
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.8'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -108,14 +107,13 @@ Targets:
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
-          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           EXECUTABLE_PREFIX: lib
           GCC_PREFIX_HEADER: Target Support Files/res/res-prefix.pch
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.8'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -140,7 +138,7 @@ Targets:
           CONFIGURATION_BUILD_DIR: "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/res"
           INFOPLIST_FILE: Target Support Files/res/ResourceBundle-res-res-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.8'
           PRODUCT_NAME: res
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -153,7 +151,7 @@ Targets:
           CONFIGURATION_BUILD_DIR: "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/res"
           INFOPLIST_FILE: Target Support Files/res/ResourceBundle-res-res-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.8'
           PRODUCT_NAME: res
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'

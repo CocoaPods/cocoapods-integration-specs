@@ -166,7 +166,7 @@ Targets:
           CODE_SIGN_IDENTITY: iPhone Developer
           CURRENT_PROJECT_VERSION: '1'
           INFOPLIST_FILE: AppHost-TestLib-Unit-Tests/AppHost-TestLib-Unit-Tests-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -181,7 +181,7 @@ Targets:
           CODE_SIGN_IDENTITY: iPhone Developer
           CURRENT_PROJECT_VERSION: '1'
           INFOPLIST_FILE: AppHost-TestLib-Unit-Tests/AppHost-TestLib-Unit-Tests-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -209,6 +209,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -220,7 +221,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/DepPod/DepPod-prefix.pch
           INFOPLIST_FILE: Target Support Files/DepPod/DepPod-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -238,6 +239,7 @@ Targets:
         Base Configuration: DepPod.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -249,7 +251,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/DepPod/DepPod-prefix.pch
           INFOPLIST_FILE: Target Support Files/DepPod/DepPod-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -295,7 +297,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -326,7 +328,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -368,7 +370,7 @@ Targets:
           CURRENT_PROJECT_VERSION: '1'
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-App-prefix.pch
           INFOPLIST_FILE: App/HostedTestLib-App-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -391,7 +393,7 @@ Targets:
           CURRENT_PROJECT_VERSION: '1'
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-App-prefix.pch
           INFOPLIST_FILE: App/HostedTestLib-App-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -428,7 +430,7 @@ Targets:
           CURRENT_PROJECT_VERSION: '1'
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-AppWithDep-prefix.pch
           INFOPLIST_FILE: AppWithDep/HostedTestLib-AppWithDep-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -451,7 +453,7 @@ Targets:
           CURRENT_PROJECT_VERSION: '1'
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-AppWithDep-prefix.pch
           INFOPLIST_FILE: AppWithDep/HostedTestLib-AppWithDep-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -486,7 +488,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests3-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests3-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           OTHER_LDFLAGS:
           - "$(inherited)"
           - "-lswiftSwiftOnoneSupport"
@@ -508,7 +510,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests3-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests3-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests3
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
@@ -539,7 +541,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests4-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests4-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           OTHER_LDFLAGS:
           - "$(inherited)"
           - "-lswiftSwiftOnoneSupport"
@@ -561,7 +563,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests4-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests4-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests4
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
@@ -592,7 +594,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests5-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests5-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           OTHER_LDFLAGS:
           - "$(inherited)"
           - "-lswiftSwiftOnoneSupport"
@@ -614,7 +616,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests5-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests5-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests5
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
@@ -646,7 +648,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests6-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests6-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           OTHER_LDFLAGS:
           - "$(inherited)"
           - "-lswiftSwiftOnoneSupport"
@@ -668,7 +670,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests6-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests6-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests6
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
@@ -862,7 +864,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -893,7 +895,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -935,7 +937,7 @@ Targets:
           CURRENT_PROJECT_VERSION: '1'
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-App-prefix.pch
           INFOPLIST_FILE: App/TestLib-App-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -959,7 +961,7 @@ Targets:
           CURRENT_PROJECT_VERSION: '1'
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-App-prefix.pch
           INFOPLIST_FILE: App/TestLib-App-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -993,7 +995,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-Unit-UnitTests1-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Unit-UnitTests1-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           OTHER_LDFLAGS:
           - "$(inherited)"
           - "-lswiftSwiftOnoneSupport"
@@ -1013,7 +1015,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-Unit-UnitTests1-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Unit-UnitTests1-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           PRODUCT_NAME: TestLib-Unit-UnitTests1
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
@@ -1043,7 +1045,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-Unit-UnitTests2-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Unit-UnitTests2-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           OTHER_LDFLAGS:
           - "$(inherited)"
           - "-lswiftSwiftOnoneSupport"
@@ -1065,7 +1067,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-Unit-UnitTests2-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Unit-UnitTests2-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           PRODUCT_NAME: TestLib-Unit-UnitTests2
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "

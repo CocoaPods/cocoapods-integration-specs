@@ -41,7 +41,7 @@ Generating Pods project
     - Adding resources
     - Linking headers
   - Installing Pod Targets
-    - Installing target `Reachability` iOS 4.3
+    - Installing target `Reachability` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/Reachability/Reachability-dummy.m`
   - Installing Aggregate Targets
     - Installing target `Pods-SampleApp_1` iOS 6.0

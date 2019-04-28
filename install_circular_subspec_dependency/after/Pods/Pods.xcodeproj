@@ -68,7 +68,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod1/Pod1-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -87,7 +87,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod1/Pod1-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -118,7 +118,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod2/Pod2-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -137,7 +137,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod2/Pod2-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -168,7 +168,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod3/Pod3-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
@@ -187,7 +187,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod3/Pod3-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
           PRIVATE_HEADERS_FOLDER_PATH: ''
