@@ -13,7 +13,6 @@ File References:
       - CMM+Private.h
     - Support Files:
       - CustomModuleMapPod-framework-iOS.modulemap
-      - CustomModuleMapPod-framework-iOS.xcconfig
       - CustomModuleMapPod-framework-iOS-dummy.m
       - CustomModuleMapPod-framework-iOS-Info.plist
       - CustomModuleMapPod-framework-iOS-prefix.pch
@@ -21,9 +20,11 @@ File References:
       - CustomModuleMapPod-framework-iOS-Unit-Tests-Info.plist
       - CustomModuleMapPod-framework-iOS-Unit-Tests-prefix.pch
       - CustomModuleMapPod-framework-iOS-Unit-Tests-resources.sh
-      - CustomModuleMapPod-framework-iOS.unit-tests.xcconfig
+      - CustomModuleMapPod-framework-iOS.debug.xcconfig
+      - CustomModuleMapPod-framework-iOS.release.xcconfig
+      - CustomModuleMapPod-framework-iOS.unit-tests.debug.xcconfig
+      - CustomModuleMapPod-framework-iOS.unit-tests.release.xcconfig
       - CustomModuleMapPod-framework-macOS.modulemap
-      - CustomModuleMapPod-framework-macOS.xcconfig
       - CustomModuleMapPod-framework-macOS-dummy.m
       - CustomModuleMapPod-framework-macOS-Info.plist
       - CustomModuleMapPod-framework-macOS-prefix.pch
@@ -31,25 +32,32 @@ File References:
       - CustomModuleMapPod-framework-macOS-Unit-Tests-Info.plist
       - CustomModuleMapPod-framework-macOS-Unit-Tests-prefix.pch
       - CustomModuleMapPod-framework-macOS-Unit-Tests-resources.sh
-      - CustomModuleMapPod-framework-macOS.unit-tests.xcconfig
+      - CustomModuleMapPod-framework-macOS.debug.xcconfig
+      - CustomModuleMapPod-framework-macOS.release.xcconfig
+      - CustomModuleMapPod-framework-macOS.unit-tests.debug.xcconfig
+      - CustomModuleMapPod-framework-macOS.unit-tests.release.xcconfig
       - CustomModuleMapPod-library-iOS.modulemap
-      - CustomModuleMapPod-library-iOS.xcconfig
       - CustomModuleMapPod-library-iOS-dummy.m
       - CustomModuleMapPod-library-iOS-prefix.pch
       - CustomModuleMapPod-library-iOS-Unit-Tests-frameworks.sh
       - CustomModuleMapPod-library-iOS-Unit-Tests-Info.plist
       - CustomModuleMapPod-library-iOS-Unit-Tests-prefix.pch
       - CustomModuleMapPod-library-iOS-Unit-Tests-resources.sh
-      - CustomModuleMapPod-library-iOS.unit-tests.xcconfig
+      - CustomModuleMapPod-library-iOS.debug.xcconfig
+      - CustomModuleMapPod-library-iOS.release.xcconfig
+      - CustomModuleMapPod-library-iOS.unit-tests.debug.xcconfig
+      - CustomModuleMapPod-library-iOS.unit-tests.release.xcconfig
       - CustomModuleMapPod-library-macOS.modulemap
-      - CustomModuleMapPod-library-macOS.xcconfig
       - CustomModuleMapPod-library-macOS-dummy.m
       - CustomModuleMapPod-library-macOS-prefix.pch
       - CustomModuleMapPod-library-macOS-Unit-Tests-frameworks.sh
       - CustomModuleMapPod-library-macOS-Unit-Tests-Info.plist
       - CustomModuleMapPod-library-macOS-Unit-Tests-prefix.pch
       - CustomModuleMapPod-library-macOS-Unit-Tests-resources.sh
-      - CustomModuleMapPod-library-macOS.unit-tests.xcconfig
+      - CustomModuleMapPod-library-macOS.debug.xcconfig
+      - CustomModuleMapPod-library-macOS.release.xcconfig
+      - CustomModuleMapPod-library-macOS.unit-tests.debug.xcconfig
+      - CustomModuleMapPod-library-macOS.unit-tests.release.xcconfig
     - Tests:
       - CustomModuleMapPodTests.m
   - MixedPod:
@@ -60,7 +68,6 @@ File References:
       - MixedPod.podspec
     - Support Files:
       - MixedPod-framework-iOS.modulemap
-      - MixedPod-framework-iOS.xcconfig
       - MixedPod-framework-iOS-dummy.m
       - MixedPod-framework-iOS-Info.plist
       - MixedPod-framework-iOS-prefix.pch
@@ -69,9 +76,11 @@ File References:
       - MixedPod-framework-iOS-Unit-Tests-Info.plist
       - MixedPod-framework-iOS-Unit-Tests-prefix.pch
       - MixedPod-framework-iOS-Unit-Tests-resources.sh
-      - MixedPod-framework-iOS.unit-tests.xcconfig
+      - MixedPod-framework-iOS.debug.xcconfig
+      - MixedPod-framework-iOS.release.xcconfig
+      - MixedPod-framework-iOS.unit-tests.debug.xcconfig
+      - MixedPod-framework-iOS.unit-tests.release.xcconfig
       - MixedPod-framework-macOS.modulemap
-      - MixedPod-framework-macOS.xcconfig
       - MixedPod-framework-macOS-dummy.m
       - MixedPod-framework-macOS-Info.plist
       - MixedPod-framework-macOS-prefix.pch
@@ -80,9 +89,11 @@ File References:
       - MixedPod-framework-macOS-Unit-Tests-Info.plist
       - MixedPod-framework-macOS-Unit-Tests-prefix.pch
       - MixedPod-framework-macOS-Unit-Tests-resources.sh
-      - MixedPod-framework-macOS.unit-tests.xcconfig
+      - MixedPod-framework-macOS.debug.xcconfig
+      - MixedPod-framework-macOS.release.xcconfig
+      - MixedPod-framework-macOS.unit-tests.debug.xcconfig
+      - MixedPod-framework-macOS.unit-tests.release.xcconfig
       - MixedPod-library-iOS.modulemap
-      - MixedPod-library-iOS.xcconfig
       - MixedPod-library-iOS-dummy.m
       - MixedPod-library-iOS-prefix.pch
       - MixedPod-library-iOS-umbrella.h
@@ -90,9 +101,11 @@ File References:
       - MixedPod-library-iOS-Unit-Tests-Info.plist
       - MixedPod-library-iOS-Unit-Tests-prefix.pch
       - MixedPod-library-iOS-Unit-Tests-resources.sh
-      - MixedPod-library-iOS.unit-tests.xcconfig
+      - MixedPod-library-iOS.debug.xcconfig
+      - MixedPod-library-iOS.release.xcconfig
+      - MixedPod-library-iOS.unit-tests.debug.xcconfig
+      - MixedPod-library-iOS.unit-tests.release.xcconfig
       - MixedPod-library-macOS.modulemap
-      - MixedPod-library-macOS.xcconfig
       - MixedPod-library-macOS-dummy.m
       - MixedPod-library-macOS-prefix.pch
       - MixedPod-library-macOS-umbrella.h
@@ -100,7 +113,10 @@ File References:
       - MixedPod-library-macOS-Unit-Tests-Info.plist
       - MixedPod-library-macOS-Unit-Tests-prefix.pch
       - MixedPod-library-macOS-Unit-Tests-resources.sh
-      - MixedPod-library-macOS.unit-tests.xcconfig
+      - MixedPod-library-macOS.debug.xcconfig
+      - MixedPod-library-macOS.release.xcconfig
+      - MixedPod-library-macOS.unit-tests.debug.xcconfig
+      - MixedPod-library-macOS.unit-tests.release.xcconfig
     - Tests:
       - MixedPodTests.m
       - MixedPodTests.swift
@@ -111,7 +127,6 @@ File References:
       - ObjCPod.podspec
     - Support Files:
       - ObjCPod-framework-iOS.modulemap
-      - ObjCPod-framework-iOS.xcconfig
       - ObjCPod-framework-iOS-dummy.m
       - ObjCPod-framework-iOS-Info.plist
       - ObjCPod-framework-iOS-prefix.pch
@@ -120,9 +135,11 @@ File References:
       - ObjCPod-framework-iOS-Unit-Tests-Info.plist
       - ObjCPod-framework-iOS-Unit-Tests-prefix.pch
       - ObjCPod-framework-iOS-Unit-Tests-resources.sh
-      - ObjCPod-framework-iOS.unit-tests.xcconfig
+      - ObjCPod-framework-iOS.debug.xcconfig
+      - ObjCPod-framework-iOS.release.xcconfig
+      - ObjCPod-framework-iOS.unit-tests.debug.xcconfig
+      - ObjCPod-framework-iOS.unit-tests.release.xcconfig
       - ObjCPod-framework-macOS.modulemap
-      - ObjCPod-framework-macOS.xcconfig
       - ObjCPod-framework-macOS-dummy.m
       - ObjCPod-framework-macOS-Info.plist
       - ObjCPod-framework-macOS-prefix.pch
@@ -131,9 +148,11 @@ File References:
       - ObjCPod-framework-macOS-Unit-Tests-Info.plist
       - ObjCPod-framework-macOS-Unit-Tests-prefix.pch
       - ObjCPod-framework-macOS-Unit-Tests-resources.sh
-      - ObjCPod-framework-macOS.unit-tests.xcconfig
+      - ObjCPod-framework-macOS.debug.xcconfig
+      - ObjCPod-framework-macOS.release.xcconfig
+      - ObjCPod-framework-macOS.unit-tests.debug.xcconfig
+      - ObjCPod-framework-macOS.unit-tests.release.xcconfig
       - ObjCPod-library-iOS.modulemap
-      - ObjCPod-library-iOS.xcconfig
       - ObjCPod-library-iOS-dummy.m
       - ObjCPod-library-iOS-prefix.pch
       - ObjCPod-library-iOS-umbrella.h
@@ -141,9 +160,11 @@ File References:
       - ObjCPod-library-iOS-Unit-Tests-Info.plist
       - ObjCPod-library-iOS-Unit-Tests-prefix.pch
       - ObjCPod-library-iOS-Unit-Tests-resources.sh
-      - ObjCPod-library-iOS.unit-tests.xcconfig
+      - ObjCPod-library-iOS.debug.xcconfig
+      - ObjCPod-library-iOS.release.xcconfig
+      - ObjCPod-library-iOS.unit-tests.debug.xcconfig
+      - ObjCPod-library-iOS.unit-tests.release.xcconfig
       - ObjCPod-library-macOS.modulemap
-      - ObjCPod-library-macOS.xcconfig
       - ObjCPod-library-macOS-dummy.m
       - ObjCPod-library-macOS-prefix.pch
       - ObjCPod-library-macOS-umbrella.h
@@ -151,7 +172,10 @@ File References:
       - ObjCPod-library-macOS-Unit-Tests-Info.plist
       - ObjCPod-library-macOS-Unit-Tests-prefix.pch
       - ObjCPod-library-macOS-Unit-Tests-resources.sh
-      - ObjCPod-library-macOS.unit-tests.xcconfig
+      - ObjCPod-library-macOS.debug.xcconfig
+      - ObjCPod-library-macOS.release.xcconfig
+      - ObjCPod-library-macOS.unit-tests.debug.xcconfig
+      - ObjCPod-library-macOS.unit-tests.release.xcconfig
     - Tests:
       - ObjCPodTests.m
   - SwiftPod:
@@ -160,7 +184,6 @@ File References:
       - SwiftPod.podspec
     - Support Files:
       - SwiftPod-framework-iOS.modulemap
-      - SwiftPod-framework-iOS.xcconfig
       - SwiftPod-framework-iOS-dummy.m
       - SwiftPod-framework-iOS-Info.plist
       - SwiftPod-framework-iOS-prefix.pch
@@ -169,9 +192,11 @@ File References:
       - SwiftPod-framework-iOS-Unit-Tests-Info.plist
       - SwiftPod-framework-iOS-Unit-Tests-prefix.pch
       - SwiftPod-framework-iOS-Unit-Tests-resources.sh
-      - SwiftPod-framework-iOS.unit-tests.xcconfig
+      - SwiftPod-framework-iOS.debug.xcconfig
+      - SwiftPod-framework-iOS.release.xcconfig
+      - SwiftPod-framework-iOS.unit-tests.debug.xcconfig
+      - SwiftPod-framework-iOS.unit-tests.release.xcconfig
       - SwiftPod-framework-macOS.modulemap
-      - SwiftPod-framework-macOS.xcconfig
       - SwiftPod-framework-macOS-dummy.m
       - SwiftPod-framework-macOS-Info.plist
       - SwiftPod-framework-macOS-prefix.pch
@@ -180,9 +205,11 @@ File References:
       - SwiftPod-framework-macOS-Unit-Tests-Info.plist
       - SwiftPod-framework-macOS-Unit-Tests-prefix.pch
       - SwiftPod-framework-macOS-Unit-Tests-resources.sh
-      - SwiftPod-framework-macOS.unit-tests.xcconfig
+      - SwiftPod-framework-macOS.debug.xcconfig
+      - SwiftPod-framework-macOS.release.xcconfig
+      - SwiftPod-framework-macOS.unit-tests.debug.xcconfig
+      - SwiftPod-framework-macOS.unit-tests.release.xcconfig
       - SwiftPod-library-iOS.modulemap
-      - SwiftPod-library-iOS.xcconfig
       - SwiftPod-library-iOS-dummy.m
       - SwiftPod-library-iOS-prefix.pch
       - SwiftPod-library-iOS-umbrella.h
@@ -190,9 +217,11 @@ File References:
       - SwiftPod-library-iOS-Unit-Tests-Info.plist
       - SwiftPod-library-iOS-Unit-Tests-prefix.pch
       - SwiftPod-library-iOS-Unit-Tests-resources.sh
-      - SwiftPod-library-iOS.unit-tests.xcconfig
+      - SwiftPod-library-iOS.debug.xcconfig
+      - SwiftPod-library-iOS.release.xcconfig
+      - SwiftPod-library-iOS.unit-tests.debug.xcconfig
+      - SwiftPod-library-iOS.unit-tests.release.xcconfig
       - SwiftPod-library-macOS.modulemap
-      - SwiftPod-library-macOS.xcconfig
       - SwiftPod-library-macOS-dummy.m
       - SwiftPod-library-macOS-prefix.pch
       - SwiftPod-library-macOS-umbrella.h
@@ -200,7 +229,10 @@ File References:
       - SwiftPod-library-macOS-Unit-Tests-Info.plist
       - SwiftPod-library-macOS-Unit-Tests-prefix.pch
       - SwiftPod-library-macOS-Unit-Tests-resources.sh
-      - SwiftPod-library-macOS.unit-tests.xcconfig
+      - SwiftPod-library-macOS.debug.xcconfig
+      - SwiftPod-library-macOS.release.xcconfig
+      - SwiftPod-library-macOS.unit-tests.debug.xcconfig
+      - SwiftPod-library-macOS.unit-tests.release.xcconfig
     - Tests:
       - SwiftPodTests.swift
 - Frameworks:
@@ -337,7 +369,7 @@ Targets:
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: CustomModuleMapPod-framework-iOS.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: ''
@@ -365,7 +397,7 @@ Targets:
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: CustomModuleMapPod-framework-iOS.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-iOS.release.xcconfig
 - CustomModuleMapPod-framework-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -412,7 +444,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -429,7 +461,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: CustomModuleMapPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-iOS.unit-tests.release.xcconfig
 - CustomModuleMapPod-framework-macOS:
     Build Phases:
     - Headers:
@@ -478,7 +510,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: CustomModuleMapPod-framework-macOS.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -508,7 +540,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: CustomModuleMapPod-framework-macOS.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-macOS.release.xcconfig
 - CustomModuleMapPod-framework-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -555,7 +587,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -571,7 +603,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-framework-macOS.unit-tests.release.xcconfig
 - CustomModuleMapPod-library-iOS:
     Build Phases:
     - Headers:
@@ -609,7 +641,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
-        Base Configuration: CustomModuleMapPod-library-iOS.xcconfig
+        Base Configuration: CustomModuleMapPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
@@ -631,7 +663,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: CustomModuleMapPod-library-iOS.xcconfig
+        Base Configuration: CustomModuleMapPod-library-iOS.release.xcconfig
 - CustomModuleMapPod-library-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -676,7 +708,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-library-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -696,7 +728,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: CustomModuleMapPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-library-iOS.unit-tests.release.xcconfig
 - CustomModuleMapPod-library-macOS:
     Build Phases:
     - Headers:
@@ -736,7 +768,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-library-macOS.xcconfig
+        Base Configuration: CustomModuleMapPod-library-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -759,7 +791,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-library-macOS.xcconfig
+        Base Configuration: CustomModuleMapPod-library-macOS.release.xcconfig
 - CustomModuleMapPod-library-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -804,7 +836,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-library-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -823,7 +855,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: CustomModuleMapPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: CustomModuleMapPod-library-macOS.unit-tests.release.xcconfig
 - MixedPod-framework-iOS:
     Build Phases:
     - Headers:
@@ -869,7 +901,7 @@ Targets:
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: MixedPod-framework-iOS.xcconfig
+        Base Configuration: MixedPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: ''
@@ -897,7 +929,7 @@ Targets:
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: MixedPod-framework-iOS.xcconfig
+        Base Configuration: MixedPod-framework-iOS.release.xcconfig
 - MixedPod-framework-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -952,7 +984,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-framework-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -969,7 +1001,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: MixedPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-framework-iOS.unit-tests.release.xcconfig
 - MixedPod-framework-macOS:
     Build Phases:
     - Headers:
@@ -1018,7 +1050,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: MixedPod-framework-macOS.xcconfig
+        Base Configuration: MixedPod-framework-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1048,7 +1080,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: MixedPod-framework-macOS.xcconfig
+        Base Configuration: MixedPod-framework-macOS.release.xcconfig
 - MixedPod-framework-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1103,7 +1135,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-framework-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1119,7 +1151,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-framework-macOS.unit-tests.release.xcconfig
 - MixedPod-library-iOS:
     Build Phases:
     - Headers:
@@ -1175,7 +1207,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
-        Base Configuration: MixedPod-library-iOS.xcconfig
+        Base Configuration: MixedPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
@@ -1197,7 +1229,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: MixedPod-library-iOS.xcconfig
+        Base Configuration: MixedPod-library-iOS.release.xcconfig
 - MixedPod-library-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1246,7 +1278,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-library-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -1266,7 +1298,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: MixedPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-library-iOS.unit-tests.release.xcconfig
 - MixedPod-library-macOS:
     Build Phases:
     - Headers:
@@ -1324,7 +1356,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-library-macOS.xcconfig
+        Base Configuration: MixedPod-library-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1347,7 +1379,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-library-macOS.xcconfig
+        Base Configuration: MixedPod-library-macOS.release.xcconfig
 - MixedPod-library-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1396,7 +1428,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-library-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1415,7 +1447,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: MixedPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: MixedPod-library-macOS.unit-tests.release.xcconfig
 - ObjCPod-framework-iOS:
     Build Phases:
     - Headers:
@@ -1458,7 +1490,7 @@ Targets:
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: ObjCPod-framework-iOS.xcconfig
+        Base Configuration: ObjCPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: ''
@@ -1486,7 +1518,7 @@ Targets:
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: ObjCPod-framework-iOS.xcconfig
+        Base Configuration: ObjCPod-framework-iOS.release.xcconfig
 - ObjCPod-framework-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1533,7 +1565,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-framework-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -1550,7 +1582,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: ObjCPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-framework-iOS.unit-tests.release.xcconfig
 - ObjCPod-framework-macOS:
     Build Phases:
     - Headers:
@@ -1596,7 +1628,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: ObjCPod-framework-macOS.xcconfig
+        Base Configuration: ObjCPod-framework-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1626,7 +1658,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: ObjCPod-framework-macOS.xcconfig
+        Base Configuration: ObjCPod-framework-macOS.release.xcconfig
 - ObjCPod-framework-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1673,7 +1705,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-framework-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1689,7 +1721,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-framework-macOS.unit-tests.release.xcconfig
 - ObjCPod-library-iOS:
     Build Phases:
     - Headers:
@@ -1724,7 +1756,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
-        Base Configuration: ObjCPod-library-iOS.xcconfig
+        Base Configuration: ObjCPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
@@ -1746,7 +1778,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: ObjCPod-library-iOS.xcconfig
+        Base Configuration: ObjCPod-library-iOS.release.xcconfig
 - ObjCPod-library-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1791,7 +1823,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-library-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -1811,7 +1843,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: ObjCPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-library-iOS.unit-tests.release.xcconfig
 - ObjCPod-library-macOS:
     Build Phases:
     - Headers:
@@ -1848,7 +1880,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-library-macOS.xcconfig
+        Base Configuration: ObjCPod-library-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1871,7 +1903,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-library-macOS.xcconfig
+        Base Configuration: ObjCPod-library-macOS.release.xcconfig
 - ObjCPod-library-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -1916,7 +1948,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-library-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -1935,7 +1967,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: ObjCPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: ObjCPod-library-macOS.unit-tests.release.xcconfig
 - Pods-Abstract Target-iOS Pods-Dynamic:
     Build Phases:
     - Headers:
@@ -2235,7 +2267,7 @@ Targets:
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: SwiftPod-framework-iOS.xcconfig
+        Base Configuration: SwiftPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: ''
@@ -2263,7 +2295,7 @@ Targets:
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: SwiftPod-framework-iOS.xcconfig
+        Base Configuration: SwiftPod-framework-iOS.release.xcconfig
 - SwiftPod-framework-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -2313,7 +2345,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-framework-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -2330,7 +2362,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: SwiftPod-framework-iOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-framework-iOS.unit-tests.release.xcconfig
 - SwiftPod-framework-macOS:
     Build Phases:
     - Headers:
@@ -2373,7 +2405,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: SwiftPod-framework-macOS.xcconfig
+        Base Configuration: SwiftPod-framework-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -2403,7 +2435,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
-        Base Configuration: SwiftPod-framework-macOS.xcconfig
+        Base Configuration: SwiftPod-framework-macOS.release.xcconfig
 - SwiftPod-framework-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -2453,7 +2485,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-framework-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -2469,7 +2501,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-framework-macOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-framework-macOS.unit-tests.release.xcconfig
 - SwiftPod-library-iOS:
     Build Phases:
     - Headers:
@@ -2521,7 +2553,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
-        Base Configuration: SwiftPod-library-iOS.xcconfig
+        Base Configuration: SwiftPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
@@ -2543,7 +2575,7 @@ Targets:
           SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: SwiftPod-library-iOS.xcconfig
+        Base Configuration: SwiftPod-library-iOS.release.xcconfig
 - SwiftPod-library-iOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -2591,7 +2623,7 @@ Targets:
           SDKROOT: iphoneos
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-library-iOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           CODE_SIGNING_ALLOWED: 'YES'
@@ -2611,7 +2643,7 @@ Targets:
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
           VALIDATE_PRODUCT: 'YES'
-        Base Configuration: SwiftPod-library-iOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-library-iOS.unit-tests.release.xcconfig
 - SwiftPod-library-macOS:
     Build Phases:
     - Headers:
@@ -2665,7 +2697,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-library-macOS.xcconfig
+        Base Configuration: SwiftPod-library-macOS.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -2688,7 +2720,7 @@ Targets:
           SKIP_INSTALL: 'YES'
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-library-macOS.xcconfig
+        Base Configuration: SwiftPod-library-macOS.release.xcconfig
 - SwiftPod-library-macOS-Unit-Tests:
     Build Phases:
     - Sources:
@@ -2736,7 +2768,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-library-macOS.unit-tests.debug.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
@@ -2755,7 +2787,7 @@ Targets:
           SDKROOT: macosx
           SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           SWIFT_VERSION: '4.0'
-        Base Configuration: SwiftPod-library-macOS.unit-tests.xcconfig
+        Base Configuration: SwiftPod-library-macOS.unit-tests.release.xcconfig
 
 
 
