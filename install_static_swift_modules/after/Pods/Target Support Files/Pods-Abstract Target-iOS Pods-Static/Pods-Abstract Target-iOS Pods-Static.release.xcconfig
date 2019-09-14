@@ -7,6 +7,7 @@ OTHER_LDFLAGS = $(inherited) -ObjC -l"CustomModuleMapPod-library-iOS" -l"MixedPo
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/MixedPod-library-iOS/MixedPod.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftPod-library-iOS/SwiftPod.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Private/CustomModuleMapPod/CustomModuleMapPod-library-iOS.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/ObjCPod/ObjCPod-library-iOS.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_OTHER_LDFLAGS = $(inherited) -ObjC -l"CustomModuleMapPod-library-iOS" -l"MixedPod-library-iOS" -l"ObjCPod-library-iOS" -l"SwiftPod-library-iOS"
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
 SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MixedPod-library-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftPod-library-iOS"
