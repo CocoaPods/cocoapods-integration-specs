@@ -27,7 +27,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
@@ -36,9 +35,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           MACH_O_TYPE: staticlib
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
@@ -46,7 +43,6 @@ Targets:
         Base Configuration: Pods-iOS App.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
@@ -55,9 +51,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           IPHONEOS_DEPLOYMENT_TARGET: '4.3'
           MACH_O_TYPE: staticlib
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'

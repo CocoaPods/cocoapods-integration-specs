@@ -61,7 +61,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -75,12 +74,8 @@ Targets:
           INFOPLIST_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
-          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
-          MODULEMAP_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: iphoneos
@@ -91,7 +86,6 @@ Targets:
         Base Configuration: Pods-SampleApp.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -105,12 +99,8 @@ Targets:
           INFOPLIST_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
-          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
-          MODULEMAP_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: iphoneos
@@ -171,9 +161,6 @@ Targets:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
@@ -184,13 +171,7 @@ Targets:
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/RealmSwift/RealmSwift.modulemap
-          PRODUCT_MODULE_NAME: RealmSwift
-          PRODUCT_NAME: RealmSwift
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '3.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
@@ -199,9 +180,6 @@ Targets:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
@@ -212,13 +190,7 @@ Targets:
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/RealmSwift/RealmSwift.modulemap
-          PRODUCT_MODULE_NAME: RealmSwift
-          PRODUCT_NAME: RealmSwift
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '3.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic

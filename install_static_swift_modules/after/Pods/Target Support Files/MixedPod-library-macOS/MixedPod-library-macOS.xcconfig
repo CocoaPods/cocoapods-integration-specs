@@ -1,13 +1,22 @@
+CODE_SIGN_IDENTITY[sdk=appletvos*] =
+CODE_SIGN_IDENTITY[sdk=iphoneos*] =
+CODE_SIGN_IDENTITY[sdk=watchos*] =
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/MixedPod-library-macOS
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/MixedPod" "${PODS_ROOT}/Headers/Public"
+MODULEMAP_FILE = Headers/Public/MixedPod/MixedPod-library-macOS.modulemap
 OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftPod-library-macOS/SwiftPod.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/ObjCPod/ObjCPod-library-macOS.modulemap"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftPod-library-macOS/SwiftPod.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/ObjCPod/ObjCPod-library-macOS.modulemap" -import-underlying-module -Xcc -fmodule-map-file="${SRCROOT}/${MODULEMAP_FILE}"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
 PODS_TARGET_SRCROOT = ${PODS_ROOT}/../MixedPod
+PRIVATE_HEADERS_FOLDER_PATH =
 PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+PRODUCT_MODULE_NAME = MixedPod
+PRODUCT_NAME = MixedPod-library-macOS
+PUBLIC_HEADERS_FOLDER_PATH =
 SKIP_INSTALL = YES
 SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftPod-library-macOS"
+SWIFT_VERSION = 4.0
 USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

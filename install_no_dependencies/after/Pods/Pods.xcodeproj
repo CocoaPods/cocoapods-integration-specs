@@ -24,7 +24,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -35,14 +34,12 @@ Targets:
           MACOSX_DEPLOYMENT_TARGET: '10.8'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
         Base Configuration: Pods-SampleApp.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -53,7 +50,6 @@ Targets:
           MACOSX_DEPLOYMENT_TARGET: '10.8'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'

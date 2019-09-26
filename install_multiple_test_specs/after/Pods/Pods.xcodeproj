@@ -199,9 +199,6 @@ Targets:
     - Debug:
         Build Settings:
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
@@ -214,13 +211,7 @@ Targets:
           - "$(inherited)"
           - "@executable_path/Frameworks"
           - "@loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/DepPod/DepPod.modulemap
-          PRODUCT_MODULE_NAME: DepPod
-          PRODUCT_NAME: DepPod
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
@@ -228,9 +219,6 @@ Targets:
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DYLIB_COMPATIBILITY_VERSION: '1'
           DYLIB_CURRENT_VERSION: '1'
@@ -243,13 +231,7 @@ Targets:
           - "$(inherited)"
           - "@executable_path/Frameworks"
           - "@loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/DepPod/DepPod.modulemap
-          PRODUCT_MODULE_NAME: DepPod
-          PRODUCT_NAME: DepPod
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4.0'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
@@ -273,9 +255,6 @@ Targets:
         Build Settings:
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
@@ -289,13 +268,7 @@ Targets:
           - "$(inherited)"
           - "@executable_path/Frameworks"
           - "@loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/HostedTestLib/HostedTestLib.modulemap
-          PRODUCT_MODULE_NAME: HostedTestLib
-          PRODUCT_NAME: HostedTestLib
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
@@ -304,9 +277,6 @@ Targets:
         Build Settings:
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
@@ -320,13 +290,7 @@ Targets:
           - "$(inherited)"
           - "@executable_path/Frameworks"
           - "@loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/HostedTestLib/HostedTestLib.modulemap
-          PRODUCT_MODULE_NAME: HostedTestLib
-          PRODUCT_NAME: HostedTestLib
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
@@ -351,7 +315,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/HostedTestLib/HostedTestLib-App-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -369,8 +333,6 @@ Targets:
           - "@executable_path/Frameworks"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
         Base Configuration: HostedTestLib.app.xcconfig
     - Release:
@@ -389,8 +351,6 @@ Targets:
           - "@executable_path/Frameworks"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: HostedTestLib.app.xcconfig
@@ -414,7 +374,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/HostedTestLib/HostedTestLib-AppWithDep-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -432,8 +392,6 @@ Targets:
           - "@executable_path/Frameworks"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
         Base Configuration: HostedTestLib.appwithdep.xcconfig
     - Release:
@@ -452,8 +410,6 @@ Targets:
           - "@executable_path/Frameworks"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: HostedTestLib.appwithdep.xcconfig
@@ -476,7 +432,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests3-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -496,8 +452,6 @@ Targets:
           - "-lswiftSwiftOnoneSupport"
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests3
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/App Host.app/App Host"
         Base Configuration: HostedTestLib.unit-unittests3.xcconfig
     - Release:
@@ -515,8 +469,6 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests3
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/App Host.app/App Host"
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: HostedTestLib.unit-unittests3.xcconfig
@@ -538,7 +490,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/HostedTestLib/HostedTestLib-Unit-UnitTests4-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -558,8 +510,6 @@ Targets:
           - "-lswiftSwiftOnoneSupport"
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests4
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/TestLib-App.app/TestLib-App"
         Base Configuration: HostedTestLib.unit-unittests4.xcconfig
     - Release:
@@ -577,8 +527,6 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests4
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/TestLib-App.app/TestLib-App"
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: HostedTestLib.unit-unittests4.xcconfig
@@ -609,8 +557,6 @@ Targets:
           - "-lswiftSwiftOnoneSupport"
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests5
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/App Host w/ Dep.app/App Host w/ Dep"
         Base Configuration: HostedTestLib.unit-unittests5.xcconfig
     - Release:
@@ -628,8 +574,6 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests5
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/App Host w/ Dep.app/App Host w/ Dep"
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: HostedTestLib.unit-unittests5.xcconfig
@@ -661,8 +605,6 @@ Targets:
           - "-lswiftSwiftOnoneSupport"
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests6
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/App Host w/ Dep.app/App Host w/ Dep"
         Base Configuration: HostedTestLib.unit-unittests6.xcconfig
     - Release:
@@ -680,8 +622,6 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           PRODUCT_NAME: HostedTestLib-Unit-UnitTests6
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/App Host w/ Dep.app/App Host w/ Dep"
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: HostedTestLib.unit-unittests6.xcconfig
@@ -699,7 +639,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -713,15 +652,8 @@ Targets:
           INFOPLIST_FILE: Target Support Files/Pods-InstallMultipleTestSpecs/Pods-InstallMultipleTestSpecs-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '11.4'
-          LD_RUNPATH_SEARCH_PATHS:
-          - "$(inherited)"
-          - "@executable_path/Frameworks"
-          - "@loader_path/Frameworks"
           MACH_O_TYPE: staticlib
-          MODULEMAP_FILE: Target Support Files/Pods-InstallMultipleTestSpecs/Pods-InstallMultipleTestSpecs.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: iphoneos
@@ -732,7 +664,6 @@ Targets:
         Base Configuration: Pods-InstallMultipleTestSpecs.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -746,15 +677,8 @@ Targets:
           INFOPLIST_FILE: Target Support Files/Pods-InstallMultipleTestSpecs/Pods-InstallMultipleTestSpecs-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '11.4'
-          LD_RUNPATH_SEARCH_PATHS:
-          - "$(inherited)"
-          - "@executable_path/Frameworks"
-          - "@loader_path/Frameworks"
           MACH_O_TYPE: staticlib
-          MODULEMAP_FILE: Target Support Files/Pods-InstallMultipleTestSpecs/Pods-InstallMultipleTestSpecs.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: iphoneos
@@ -778,7 +702,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -792,15 +715,8 @@ Targets:
           INFOPLIST_FILE: Target Support Files/Pods-Other/Pods-Other-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '11.4'
-          LD_RUNPATH_SEARCH_PATHS:
-          - "$(inherited)"
-          - "@executable_path/Frameworks"
-          - "@loader_path/Frameworks"
           MACH_O_TYPE: staticlib
-          MODULEMAP_FILE: Target Support Files/Pods-Other/Pods-Other.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: iphoneos
@@ -811,7 +727,6 @@ Targets:
         Base Configuration: Pods-Other.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -825,15 +740,8 @@ Targets:
           INFOPLIST_FILE: Target Support Files/Pods-Other/Pods-Other-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           IPHONEOS_DEPLOYMENT_TARGET: '11.4'
-          LD_RUNPATH_SEARCH_PATHS:
-          - "$(inherited)"
-          - "@executable_path/Frameworks"
-          - "@loader_path/Frameworks"
           MACH_O_TYPE: staticlib
-          MODULEMAP_FILE: Target Support Files/Pods-Other/Pods-Other.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: iphoneos
@@ -860,9 +768,6 @@ Targets:
         Build Settings:
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
@@ -876,13 +781,7 @@ Targets:
           - "$(inherited)"
           - "@executable_path/Frameworks"
           - "@loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/TestLib/TestLib.modulemap
-          PRODUCT_MODULE_NAME: TestLib
-          PRODUCT_NAME: TestLib
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
@@ -891,9 +790,6 @@ Targets:
         Build Settings:
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
           DYLIB_COMPATIBILITY_VERSION: '1'
@@ -907,13 +803,7 @@ Targets:
           - "$(inherited)"
           - "@executable_path/Frameworks"
           - "@loader_path/Frameworks"
-          MODULEMAP_FILE: Target Support Files/TestLib/TestLib.modulemap
-          PRODUCT_MODULE_NAME: TestLib
-          PRODUCT_NAME: TestLib
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
           VERSIONING_SYSTEM: apple-generic
@@ -938,7 +828,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/TestLib/TestLib-App-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -957,8 +847,6 @@ Targets:
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: TestLib-App
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
         Base Configuration: TestLib.app.xcconfig
     - Release:
@@ -978,8 +866,6 @@ Targets:
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: TestLib-App
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: TestLib.app.xcconfig
@@ -1001,7 +887,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/TestLib/TestLib-Unit-UnitTests1-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -1020,8 +906,6 @@ Targets:
           - "-lswiftSwiftOnoneSupport"
           PRODUCT_NAME: TestLib-Unit-UnitTests1
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
         Base Configuration: TestLib.unit-unittests1.xcconfig
     - Release:
         Build Settings:
@@ -1037,8 +921,6 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           PRODUCT_NAME: TestLib-Unit-UnitTests1
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: TestLib.unit-unittests1.xcconfig
 - TestLib-Unit-UnitTests2:
@@ -1059,7 +941,7 @@ Targets:
         Shell Path: "/bin/sh"
         Shell Script: '"${PODS_ROOT}/Target Support Files/TestLib/TestLib-Unit-UnitTests2-frameworks.sh"
 
-          '
+'
     Build Configurations:
     - Debug:
         Build Settings:
@@ -1079,8 +961,6 @@ Targets:
           - "-lswiftSwiftOnoneSupport"
           PRODUCT_NAME: TestLib-Unit-UnitTests2
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/AppHost-TestLib-Unit-Tests.app/AppHost-TestLib-Unit-Tests"
         Base Configuration: TestLib.unit-unittests2.xcconfig
     - Release:
@@ -1098,8 +978,6 @@ Targets:
           IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           PRODUCT_NAME: TestLib-Unit-UnitTests2
           SDKROOT: iphoneos
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
-          SWIFT_VERSION: '4'
           TEST_HOST: "$(BUILT_PRODUCTS_DIR)/AppHost-TestLib-Unit-Tests.app/AppHost-TestLib-Unit-Tests"
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: TestLib.unit-unittests2.xcconfig

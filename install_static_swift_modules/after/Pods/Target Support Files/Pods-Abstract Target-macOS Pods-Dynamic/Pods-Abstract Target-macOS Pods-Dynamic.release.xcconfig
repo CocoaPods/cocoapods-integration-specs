@@ -3,6 +3,7 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CustomMod
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CustomModuleMapPod-framework-macOS/CustomModuleMapPod.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MixedPod-framework-macOS/MixedPod.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ObjCPod-framework-macOS/ObjCPod.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftPod-framework-macOS/SwiftPod.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
+MODULEMAP_FILE = Target Support Files/Pods-Abstract Target-macOS Pods-Dynamic/Pods-Abstract Target-macOS Pods-Dynamic.modulemap
 OTHER_LDFLAGS = $(inherited) -framework "CustomModuleMapPod" -framework "MixedPod" -framework "ObjCPod" -framework "SwiftPod"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}

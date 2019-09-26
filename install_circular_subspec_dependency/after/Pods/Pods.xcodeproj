@@ -64,39 +64,21 @@ Targets:
     - Debug:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod1/Pod1-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: Pod1
-          PRODUCT_NAME: Pod1
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           TARGETED_DEVICE_FAMILY: '1,2'
         Base Configuration: Pod1.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod1/Pod1-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: Pod1
-          PRODUCT_NAME: Pod1
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: Pod1.xcconfig
@@ -114,39 +96,21 @@ Targets:
     - Debug:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod2/Pod2-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: Pod2
-          PRODUCT_NAME: Pod2
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           TARGETED_DEVICE_FAMILY: '1,2'
         Base Configuration: Pod2.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod2/Pod2-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: Pod2
-          PRODUCT_NAME: Pod2
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: Pod2.xcconfig
@@ -164,39 +128,21 @@ Targets:
     - Debug:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod3/Pod3-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: Pod3
-          PRODUCT_NAME: Pod3
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           TARGETED_DEVICE_FAMILY: '1,2'
         Base Configuration: Pod3.xcconfig
     - Release:
         Build Settings:
           CODE_SIGN_IDENTITY: iPhone Developer
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/Pod3/Pod3-prefix.pch
           IPHONEOS_DEPLOYMENT_TARGET: '8.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: Pod3
-          PRODUCT_NAME: Pod3
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: iphoneos
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           TARGETED_DEVICE_FAMILY: '1,2'
           VALIDATE_PRODUCT: 'YES'
         Base Configuration: Pod3.xcconfig
@@ -209,16 +155,13 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           MACH_O_TYPE: staticlib
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'
@@ -226,16 +169,13 @@ Targets:
         Base Configuration: Pods-SubSpecCircular.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           IPHONEOS_DEPLOYMENT_TARGET: '9.3'
           MACH_O_TYPE: staticlib
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: iphoneos
           SKIP_INSTALL: 'YES'

@@ -41,7 +41,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -50,16 +49,13 @@ Targets:
           EXECUTABLE_PREFIX: lib
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.8'
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
         Base Configuration: Pods-SampleApp.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CODE_SIGN_IDENTITY: "-"
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
@@ -68,9 +64,7 @@ Targets:
           EXECUTABLE_PREFIX: lib
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.8'
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -89,42 +83,24 @@ Targets:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           EXECUTABLE_PREFIX: lib
           GCC_PREFIX_HEADER: Target Support Files/res/res-prefix.pch
           MACOSX_DEPLOYMENT_TARGET: '10.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: res
-          PRODUCT_NAME: res
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: macosx
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
         Base Configuration: res.xcconfig
     - Release:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: "-"
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           EXECUTABLE_PREFIX: lib
           GCC_PREFIX_HEADER: Target Support Files/res/res-prefix.pch
           MACOSX_DEPLOYMENT_TARGET: '10.0'
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PRIVATE_HEADERS_FOLDER_PATH: ''
-          PRODUCT_MODULE_NAME: res
-          PRODUCT_NAME: res
-          PUBLIC_HEADERS_FOLDER_PATH: ''
           SDKROOT: macosx
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
         Base Configuration: res.xcconfig
 - res-res:
     Build Phases:

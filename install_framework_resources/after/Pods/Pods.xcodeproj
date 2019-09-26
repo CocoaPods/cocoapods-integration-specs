@@ -64,7 +64,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
@@ -80,13 +79,9 @@ Targets:
           FRAMEWORK_VERSION: A
           INFOPLIST_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
-          MODULEMAP_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: macosx
@@ -96,7 +91,6 @@ Targets:
         Base Configuration: Pods-SampleApp.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
@@ -112,13 +106,9 @@ Targets:
           FRAMEWORK_VERSION: A
           INFOPLIST_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
-          MODULEMAP_FILE: Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: macosx
@@ -140,7 +130,6 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
@@ -159,10 +148,7 @@ Targets:
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
-          MODULEMAP_FILE: Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: macosx
@@ -172,7 +158,6 @@ Targets:
         Base Configuration: Pods-SampleAppTests.debug.xcconfig
     - Release:
         Build Settings:
-          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: 'NO'
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
@@ -191,10 +176,7 @@ Targets:
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACH_O_TYPE: staticlib
           MACOSX_DEPLOYMENT_TARGET: '10.10'
-          MODULEMAP_FILE: Target Support Files/Pods-SampleAppTests/Pods-SampleAppTests.modulemap
-          OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
-          PODS_ROOT: "$(SRCROOT)"
           PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
           PRODUCT_NAME: "$(TARGET_NAME:c99extidentifier)"
           SDKROOT: macosx
@@ -222,10 +204,6 @@ Targets:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
-          CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           COMBINE_HIDPI_IMAGES: 'YES'
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
@@ -238,12 +216,7 @@ Targets:
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACOSX_DEPLOYMENT_TARGET: '10.0'
-          MODULEMAP_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources.modulemap
-          PRODUCT_MODULE_NAME: SamplePodWithResources
-          PRODUCT_NAME: SamplePodWithResources
           SDKROOT: macosx
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
         Base Configuration: SamplePodWithResources.xcconfig
@@ -251,10 +224,6 @@ Targets:
         Build Settings:
           ARCHS: "$(ARCHS_STANDARD_64_BIT)"
           CLANG_ENABLE_OBJC_WEAK: 'NO'
-          CODE_SIGN_IDENTITY: ''
-          CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
-          CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
-          CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           COMBINE_HIDPI_IMAGES: 'YES'
           CURRENT_PROJECT_VERSION: '1'
           DEFINES_MODULE: 'YES'
@@ -267,12 +236,7 @@ Targets:
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
           MACOSX_DEPLOYMENT_TARGET: '10.0'
-          MODULEMAP_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources.modulemap
-          PRODUCT_MODULE_NAME: SamplePodWithResources
-          PRODUCT_NAME: SamplePodWithResources
           SDKROOT: macosx
-          SKIP_INSTALL: 'YES'
-          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) "
           VERSIONING_SYSTEM: apple-generic
           VERSION_INFO_PREFIX: ''
         Base Configuration: SamplePodWithResources.xcconfig
