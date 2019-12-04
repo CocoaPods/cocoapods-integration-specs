@@ -40,6 +40,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          GCC_ENABLE_OBJC_GC: supported
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           MACH_O_TYPE: staticlib
           OTHER_LDFLAGS: ''
@@ -58,6 +59,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          GCC_ENABLE_OBJC_GC: supported
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           MACH_O_TYPE: staticlib
           OTHER_LDFLAGS: ''
