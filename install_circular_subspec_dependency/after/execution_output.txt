@@ -47,7 +47,6 @@ Generating Pods project
     - Installing target `Pods-SubSpecCircular` iOS 9.3
       - Generating dummy source at `Pods/Target Support Files/Pods-SubSpecCircular/Pods-SubSpecCircular-dummy.m`
   - Generating deterministic UUIDs
-  - Stabilizing target UUIDs
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
   Cleaning up sandbox directory
