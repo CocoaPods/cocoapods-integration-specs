@@ -321,6 +321,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -333,7 +334,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: CustomModuleMapPod
@@ -348,6 +349,7 @@ Targets:
         Base Configuration: CustomModuleMapPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -360,7 +362,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/CustomModuleMapPod-framework-iOS/CustomModuleMapPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: CustomModuleMapPod
@@ -581,12 +583,13 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Private/CustomModuleMapPod/CustomModuleMapPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -602,12 +605,13 @@ Targets:
         Base Configuration: CustomModuleMapPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/CustomModuleMapPod-library-iOS/CustomModuleMapPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Private/CustomModuleMapPod/CustomModuleMapPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -799,6 +803,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -811,7 +816,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: MixedPod
@@ -826,6 +831,7 @@ Targets:
         Base Configuration: MixedPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -838,7 +844,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/MixedPod-framework-iOS/MixedPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: MixedPod
@@ -1093,12 +1099,13 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/MixedPod/MixedPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -1114,12 +1121,13 @@ Targets:
         Base Configuration: MixedPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/MixedPod-library-iOS/MixedPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/MixedPod/MixedPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -1334,6 +1342,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -1346,7 +1355,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: ObjCPod
@@ -1361,6 +1370,7 @@ Targets:
         Base Configuration: ObjCPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -1373,7 +1383,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/ObjCPod-framework-iOS/ObjCPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: ObjCPod
@@ -1588,12 +1598,13 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/ObjCPod/ObjCPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -1609,12 +1620,13 @@ Targets:
         Base Configuration: ObjCPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/ObjCPod-library-iOS/ObjCPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/ObjCPod/ObjCPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -2057,6 +2069,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -2069,7 +2082,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: SwiftPod
@@ -2084,6 +2097,7 @@ Targets:
         Base Configuration: SwiftPod-framework-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -2096,7 +2110,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-prefix.pch
           INFOPLIST_FILE: Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/SwiftPod-framework-iOS/SwiftPod-framework-iOS.modulemap
           PRODUCT_MODULE_NAME: SwiftPod
@@ -2331,12 +2345,13 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/SwiftPod/SwiftPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''
@@ -2352,12 +2367,13 @@ Targets:
         Base Configuration: SwiftPod-library-iOS.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: iPhone Developer
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
           GCC_PREFIX_HEADER: Target Support Files/SwiftPod-library-iOS/SwiftPod-library-iOS-prefix.pch
-          IPHONEOS_DEPLOYMENT_TARGET: '9.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
           MODULEMAP_FILE: Headers/Public/SwiftPod/SwiftPod-library-iOS.modulemap
           OTHER_LDFLAGS: ''
           OTHER_LIBTOOLFLAGS: ''

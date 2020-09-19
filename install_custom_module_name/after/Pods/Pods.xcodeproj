@@ -202,7 +202,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/libPusher/libPusher-prefix.pch
           INFOPLIST_FILE: Target Support Files/libPusher/libPusher-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '8.2'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/libPusher/libPusher.modulemap
           PRODUCT_MODULE_NAME: Pusher
@@ -228,7 +228,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/libPusher/libPusher-prefix.pch
           INFOPLIST_FILE: Target Support Files/libPusher/libPusher-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '8.2'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/libPusher/libPusher.modulemap
           PRODUCT_MODULE_NAME: Pusher
@@ -347,7 +347,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/SocketRocket/SocketRocket-prefix.pch
           INFOPLIST_FILE: Target Support Files/SocketRocket/SocketRocket-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '8.2'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/SocketRocket/SocketRocket.modulemap
           PRODUCT_MODULE_NAME: SocketRocket
@@ -373,7 +373,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/SocketRocket/SocketRocket-prefix.pch
           INFOPLIST_FILE: Target Support Files/SocketRocket/SocketRocket-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '8.2'
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
           MODULEMAP_FILE: Target Support Files/SocketRocket/SocketRocket.modulemap
           PRODUCT_MODULE_NAME: SocketRocket

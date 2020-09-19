@@ -237,7 +237,7 @@ Targets:
           INFOPLIST_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources.modulemap
           PRODUCT_MODULE_NAME: SamplePodWithResources
           PRODUCT_NAME: SamplePodWithResources
@@ -266,7 +266,7 @@ Targets:
           INFOPLIST_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
           LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks"
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.10'
           MODULEMAP_FILE: Target Support Files/SamplePodWithResources/SamplePodWithResources.modulemap
           PRODUCT_MODULE_NAME: SamplePodWithResources
           PRODUCT_NAME: SamplePodWithResources
@@ -291,7 +291,7 @@ Targets:
           IBSC_MODULE: SamplePodWithResources
           INFOPLIST_FILE: Target Support Files/SamplePodWithResources/ResourceBundle-SamplePodWithResources-SamplePodWithResources-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.10'
           PRODUCT_NAME: SamplePodWithResources
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'
@@ -305,7 +305,7 @@ Targets:
           IBSC_MODULE: SamplePodWithResources
           INFOPLIST_FILE: Target Support Files/SamplePodWithResources/ResourceBundle-SamplePodWithResources-SamplePodWithResources-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Bundles"
-          MACOSX_DEPLOYMENT_TARGET: '10.0'
+          MACOSX_DEPLOYMENT_TARGET: '10.10'
           PRODUCT_NAME: SamplePodWithResources
           SDKROOT: macosx
           SKIP_INSTALL: 'YES'

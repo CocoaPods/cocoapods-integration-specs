@@ -37,11 +37,11 @@ Generating Pods project
     - Adding development pod helper files
     - Linking headers
   - Installing Pod Targets
-    - Installing target `Pod1` iOS 8.0
+    - Installing target `Pod1` iOS 9.3
       - Generating dummy source at `Pods/Target Support Files/Pod1/Pod1-dummy.m`
-    - Installing target `Pod2` iOS 8.0
+    - Installing target `Pod2` iOS 9.3
       - Generating dummy source at `Pods/Target Support Files/Pod2/Pod2-dummy.m`
-    - Installing target `Pod3` iOS 8.0
+    - Installing target `Pod3` iOS 9.3
       - Generating dummy source at `Pods/Target Support Files/Pod3/Pod3-dummy.m`
   - Installing Aggregate Targets
     - Installing target `Pods-SubSpecCircular` iOS 9.3

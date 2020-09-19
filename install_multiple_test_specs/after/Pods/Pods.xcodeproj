@@ -167,7 +167,7 @@ Targets:
           CODE_SIGN_IDENTITY: iPhone Developer
           CURRENT_PROJECT_VERSION: '1'
           INFOPLIST_FILE: AppHost-TestLib-Unit-Tests/AppHost-TestLib-Unit-Tests-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -182,7 +182,7 @@ Targets:
           CODE_SIGN_IDENTITY: iPhone Developer
           CURRENT_PROJECT_VERSION: '1'
           INFOPLIST_FILE: AppHost-TestLib-Unit-Tests/AppHost-TestLib-Unit-Tests-Info.plist
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -210,6 +210,7 @@ Targets:
     Build Configurations:
     - Debug:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -221,7 +222,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/DepPod/DepPod-prefix.pch
           INFOPLIST_FILE: Target Support Files/DepPod/DepPod-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -239,6 +240,7 @@ Targets:
         Base Configuration: DepPod.debug.xcconfig
     - Release:
         Build Settings:
+          CLANG_ENABLE_OBJC_WEAK: 'NO'
           CODE_SIGN_IDENTITY: ''
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
@@ -250,7 +252,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/DepPod/DepPod-prefix.pch
           INFOPLIST_FILE: Target Support Files/DepPod/DepPod-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '8.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -296,7 +298,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -327,7 +329,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/HostedTestLib/HostedTestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/HostedTestLib/HostedTestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -883,7 +885,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"
@@ -914,7 +916,7 @@ Targets:
           GCC_PREFIX_HEADER: Target Support Files/TestLib/TestLib-prefix.pch
           INFOPLIST_FILE: Target Support Files/TestLib/TestLib-Info.plist
           INSTALL_PATH: "$(LOCAL_LIBRARY_DIR)/Frameworks"
-          IPHONEOS_DEPLOYMENT_TARGET: '10.0'
+          IPHONEOS_DEPLOYMENT_TARGET: '11.4'
           LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"
           - "@executable_path/Frameworks"

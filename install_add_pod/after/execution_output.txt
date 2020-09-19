@@ -52,9 +52,9 @@ Generating Pods project
     - Adding resources
     - Linking headers
   - Installing Pod Targets
-    - Installing target `JSONKit` iOS 4.3
+    - Installing target `JSONKit` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/JSONKit/JSONKit-dummy.m`
-    - Installing target `Reachability` iOS 4.3
+    - Installing target `Reachability` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/Reachability/Reachability-dummy.m`
   - Installing Aggregate Targets
     - Installing target `Pods-SampleApp` iOS 6.0

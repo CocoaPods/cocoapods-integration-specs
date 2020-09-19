@@ -52,9 +52,9 @@ Generating Pods project
   - Installing Pod Targets
     - Installing target `AFNetworking` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m`
-    - Installing target `RKValueTransformers` iOS 5.1.1
+    - Installing target `RKValueTransformers` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/RKValueTransformers/RKValueTransformers-dummy.m`
-    - Installing target `SEGModules` iOS 4.3
+    - Installing target `SEGModules` iOS 6.0
       - Generating dummy source at `Pods/Target Support Files/SEGModules/SEGModules-dummy.m`
   - Installing Aggregate Targets
     - Installing target `Pods-SampleApp` iOS 6.0
