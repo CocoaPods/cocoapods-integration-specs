@@ -48,7 +48,6 @@ Integrating target `BananaLib`
     Adding Build Phase '[CP] Embed Pods Frameworks' to project.
     Adding Build Phase '[CP] Copy XCFrameworks' to project.
   - Generating deterministic UUIDs
-  - Stabilizing target UUIDs
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
   Cleaning up sandbox directory
