@@ -28,11 +28,7 @@ SELECT_SLICE_RETVAL=""
 
 select_slice() {
   local paths=("$@")
-  # Locate the correct slice of the .xcframework for the current architectures
-  local target_path=""
-
-  # Split archs on space so we can find a slice that has all the needed archs
-  local target_archs=$(echo $ARCHS | tr " " "\n")
+  local target_archs=($ARCHS)
 
   local target_variant=""
   if [[ "$PLATFORM_NAME" == *"simulator" ]]; then
@@ -43,7 +39,7 @@ select_slice() {
   fi
   for i in ${!paths[@]}; do
     local matched_all_archs="1"
-    for target_arch in $target_archs
+    for target_arch in ${!target_arch[@]}
     do
       if ! [[ "${paths[$i]}" == *"$target_variant"* ]]; then
         matched_all_archs="0"
@@ -93,7 +89,6 @@ install_xcframework() {
     echo "warning: [CP] Unable to find matching .xcframework slice in '${paths[@]}' for the current build architectures ($ARCHS)."
     return
   fi
-  local source="$basepath/$target_path"
 
   local destination="${PODS_XCFRAMEWORKS_BUILD_DIR}/${name}"
 
@@ -101,6 +96,7 @@ install_xcframework() {
     mkdir -p "$destination"
   fi
 
+  local source="$basepath/$target_path"
   copy_dir "$source/" "$destination"
   echo "Copied $source to $destination"
 }
