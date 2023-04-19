@@ -62,7 +62,6 @@ File References:
       - MixedPod.podspec
     - Support Files:
       - MixedPod-framework-iOS.modulemap
-      - MixedPod-framework-iOS-dummy.m
       - MixedPod-framework-iOS-Info.plist
       - MixedPod-framework-iOS-prefix.pch
       - MixedPod-framework-iOS-umbrella.h
@@ -74,7 +73,6 @@ File References:
       - MixedPod-framework-iOS.unit-tests.debug.xcconfig
       - MixedPod-framework-iOS.unit-tests.release.xcconfig
       - MixedPod-framework-macOS.modulemap
-      - MixedPod-framework-macOS-dummy.m
       - MixedPod-framework-macOS-Info.plist
       - MixedPod-framework-macOS-prefix.pch
       - MixedPod-framework-macOS-umbrella.h
@@ -86,7 +84,6 @@ File References:
       - MixedPod-framework-macOS.unit-tests.debug.xcconfig
       - MixedPod-framework-macOS.unit-tests.release.xcconfig
       - MixedPod-library-iOS.modulemap
-      - MixedPod-library-iOS-dummy.m
       - MixedPod-library-iOS-prefix.pch
       - MixedPod-library-iOS-umbrella.h
       - MixedPod-library-iOS-Unit-Tests-Info.plist
@@ -96,7 +93,6 @@ File References:
       - MixedPod-library-iOS.unit-tests.debug.xcconfig
       - MixedPod-library-iOS.unit-tests.release.xcconfig
       - MixedPod-library-macOS.modulemap
-      - MixedPod-library-macOS-dummy.m
       - MixedPod-library-macOS-prefix.pch
       - MixedPod-library-macOS-umbrella.h
       - MixedPod-library-macOS-Unit-Tests-Info.plist
@@ -166,7 +162,6 @@ File References:
       - SwiftPod.podspec
     - Support Files:
       - SwiftPod-framework-iOS.modulemap
-      - SwiftPod-framework-iOS-dummy.m
       - SwiftPod-framework-iOS-Info.plist
       - SwiftPod-framework-iOS-prefix.pch
       - SwiftPod-framework-iOS-umbrella.h
@@ -178,7 +173,6 @@ File References:
       - SwiftPod-framework-iOS.unit-tests.debug.xcconfig
       - SwiftPod-framework-iOS.unit-tests.release.xcconfig
       - SwiftPod-framework-macOS.modulemap
-      - SwiftPod-framework-macOS-dummy.m
       - SwiftPod-framework-macOS-Info.plist
       - SwiftPod-framework-macOS-prefix.pch
       - SwiftPod-framework-macOS-umbrella.h
@@ -190,7 +184,6 @@ File References:
       - SwiftPod-framework-macOS.unit-tests.debug.xcconfig
       - SwiftPod-framework-macOS.unit-tests.release.xcconfig
       - SwiftPod-library-iOS.modulemap
-      - SwiftPod-library-iOS-dummy.m
       - SwiftPod-library-iOS-prefix.pch
       - SwiftPod-library-iOS-umbrella.h
       - SwiftPod-library-iOS-Unit-Tests-Info.plist
@@ -200,7 +193,6 @@ File References:
       - SwiftPod-library-iOS.unit-tests.debug.xcconfig
       - SwiftPod-library-iOS.unit-tests.release.xcconfig
       - SwiftPod-library-macOS.modulemap
-      - SwiftPod-library-macOS-dummy.m
       - SwiftPod-library-macOS-prefix.pch
       - SwiftPod-library-macOS-umbrella.h
       - SwiftPod-library-macOS-Unit-Tests-Info.plist
@@ -774,7 +766,6 @@ Targets:
     - Sources:
       - bce.m
       - foo.swift
-      - MixedPod-framework-iOS-dummy.m
     - Frameworks:
       - Foundation.framework
     - Resources: []
@@ -905,7 +896,6 @@ Targets:
     - Sources:
       - bce.m
       - foo.swift
-      - MixedPod-framework-macOS-dummy.m
     - Frameworks:
       - Cocoa.framework
     - Resources: []
@@ -1038,7 +1028,6 @@ Targets:
     - Sources:
       - bce.m
       - foo.swift
-      - MixedPod-library-iOS-dummy.m
     - Frameworks: []
     - Copy generated compatibility header:
         Input File List Paths: []
@@ -1164,7 +1153,6 @@ Targets:
     - Sources:
       - bce.m
       - foo.swift
-      - MixedPod-library-macOS-dummy.m
     - Frameworks: []
     - Copy generated compatibility header:
         Input File List Paths: []
@@ -1991,7 +1979,6 @@ Targets:
           ATTRIBUTES:
           - Public
     - Sources:
-      - SwiftPod-framework-iOS-dummy.m
       - xyz.swift
     - Frameworks:
       - Foundation.framework
@@ -2113,7 +2100,6 @@ Targets:
           ATTRIBUTES:
           - Public
     - Sources:
-      - SwiftPod-framework-macOS-dummy.m
       - xyz.swift
     - Frameworks:
       - Cocoa.framework
@@ -2237,7 +2223,6 @@ Targets:
           ATTRIBUTES:
           - Project
     - Sources:
-      - SwiftPod-library-iOS-dummy.m
       - xyz.swift
     - Frameworks: []
     - Copy generated compatibility header:
@@ -2358,7 +2343,6 @@ Targets:
           ATTRIBUTES:
           - Project
     - Sources:
-      - SwiftPod-library-macOS-dummy.m
       - xyz.swift
     - Frameworks: []
     - Copy generated compatibility header:
