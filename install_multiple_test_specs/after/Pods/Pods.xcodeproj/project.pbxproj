@@ -32,7 +32,6 @@ File References:
       - HostedTestLib-App-prefix.pch
       - HostedTestLib-AppWithDep-frameworks.sh
       - HostedTestLib-AppWithDep-prefix.pch
-      - HostedTestLib-dummy.m
       - HostedTestLib-Info.plist
       - HostedTestLib-prefix.pch
       - HostedTestLib-umbrella.h
@@ -82,7 +81,6 @@ File References:
       - TestLib.modulemap
       - TestLib-App-frameworks.sh
       - TestLib-App-prefix.pch
-      - TestLib-dummy.m
       - TestLib-Info.plist
       - TestLib-prefix.pch
       - TestLib-umbrella.h
@@ -272,7 +270,6 @@ Targets:
           - Public
     - Sources:
       - HostedTestLib.swift
-      - HostedTestLib-dummy.m
     - Frameworks:
       - Foundation.framework
     - Resources: []
@@ -848,7 +845,6 @@ Targets:
           - Public
     - Sources:
       - main.swift
-      - TestLib-dummy.m
     - Frameworks:
       - Foundation.framework
     - Resources: []

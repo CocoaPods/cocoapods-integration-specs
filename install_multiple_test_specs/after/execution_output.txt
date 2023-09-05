@@ -60,7 +60,6 @@ Generating Pods project
       - Generating module map file at `Pods/Target Support Files/HostedTestLib/HostedTestLib.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/HostedTestLib/HostedTestLib-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/HostedTestLib/HostedTestLib-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/HostedTestLib/HostedTestLib-dummy.m`
     - Installing target `TestLib` iOS 10.0
       - Generating Info.plist file at `Pods/Target Support Files/TestLib/TestLib-Unit-UnitTests1-Info.plist`
       - Generating Info.plist file at `Pods/Target Support Files/TestLib/TestLib-Unit-UnitTests2-Info.plist`
@@ -69,7 +68,6 @@ Generating Pods project
       - Generating module map file at `Pods/Target Support Files/TestLib/TestLib.modulemap`
       - Generating umbrella header at `Pods/Target Support Files/TestLib/TestLib-umbrella.h`
       - Generating Info.plist file at `Pods/Target Support Files/TestLib/TestLib-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/TestLib/TestLib-dummy.m`
   - Installing Aggregate Targets
     - Installing target `Pods-InstallMultipleTestSpecs` iOS 11.4
       - Generating Info.plist file at `Pods/Target Support Files/Pods-InstallMultipleTestSpecs/Pods-InstallMultipleTestSpecs-Info.plist`
