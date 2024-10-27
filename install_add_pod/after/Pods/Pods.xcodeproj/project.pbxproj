@@ -53,6 +53,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          ENABLE_MODULE_VERIFIER: 'NO'
           ENABLE_USER_SCRIPT_SANDBOXING: 'NO'
           GCC_PREFIX_HEADER: Target Support Files/JSONKit/JSONKit-prefix.pch
           GENERATE_INFOPLIST_FILE: 'NO'
@@ -75,6 +76,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          ENABLE_MODULE_VERIFIER: 'NO'
           ENABLE_USER_SCRIPT_SANDBOXING: 'NO'
           GCC_PREFIX_HEADER: Target Support Files/JSONKit/JSONKit-prefix.pch
           GENERATE_INFOPLIST_FILE: 'NO'
@@ -105,6 +107,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          ENABLE_MODULE_VERIFIER: 'NO'
           ENABLE_USER_SCRIPT_SANDBOXING: 'NO'
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           MACH_O_TYPE: staticlib
@@ -123,6 +126,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          ENABLE_MODULE_VERIFIER: 'NO'
           ENABLE_USER_SCRIPT_SANDBOXING: 'NO'
           IPHONEOS_DEPLOYMENT_TARGET: '6.0'
           MACH_O_TYPE: staticlib
@@ -154,6 +158,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          ENABLE_MODULE_VERIFIER: 'NO'
           ENABLE_USER_SCRIPT_SANDBOXING: 'NO'
           GCC_PREFIX_HEADER: Target Support Files/Reachability/Reachability-prefix.pch
           GENERATE_INFOPLIST_FILE: 'NO'
@@ -176,6 +181,7 @@ Targets:
           CODE_SIGN_IDENTITY[sdk=appletvos*]: ''
           CODE_SIGN_IDENTITY[sdk=iphoneos*]: ''
           CODE_SIGN_IDENTITY[sdk=watchos*]: ''
+          ENABLE_MODULE_VERIFIER: 'NO'
           ENABLE_USER_SCRIPT_SANDBOXING: 'NO'
           GCC_PREFIX_HEADER: Target Support Files/Reachability/Reachability-prefix.pch
           GENERATE_INFOPLIST_FILE: 'NO'
