@@ -190,7 +190,6 @@ Integrating target `SwiftPod-library-iOS`
 
 Integrating target `SwiftPod-library-macOS`
   - Generating deterministic UUIDs
-  - Stabilizing target UUIDs
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
   Cleaning up sandbox directory

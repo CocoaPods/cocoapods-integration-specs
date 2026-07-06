@@ -53,7 +53,6 @@ Generating Pods project
       - Generating umbrella header at `Pods/Target Support Files/Pods-Example/Pods-Example-umbrella.h`
       - Generating dummy source at `Pods/Target Support Files/Pods-Example/Pods-Example-dummy.m`
   - Generating deterministic UUIDs
-  - Stabilizing target UUIDs
   - Running post install hooks
   - Writing Xcode project file to `Pods/Pods.xcodeproj`
   Cleaning up sandbox directory
